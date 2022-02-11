@@ -1,2 +1,2 @@
 # taobao.com
-taobao
+仿taobao静态页面实现
