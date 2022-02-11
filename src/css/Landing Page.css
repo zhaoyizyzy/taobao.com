@@ -1,0 +1,348 @@
+@charset "utf-8";
+body {
+  font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+header {
+  width: 100%;
+  height: 35px;
+  background-color: #f5f5f5;
+}
+header > .container {
+  font-size: 12px;
+  height: 35px;
+}
+header > .container > .top-nav-l {
+  float: left;
+}
+header > .container > .top-nav-l > li {
+  float: left;
+  margin-right: 7px;
+  height: 35px;
+  position: relative;
+}
+header > .container > .top-nav-l > li > a {
+  color: #6C6C6C;
+  padding: 0 6px;
+  line-height: 35px;
+}
+header > .container > .top-nav-l > li > a:hover {
+  color: #f40;
+}
+header > .container > .top-nav-l > li > .login {
+  color: #f40;
+}
+header > .container > .top-nav-l li:nth-of-type(1) .icon {
+  display: inline-block;
+  font-size: 6px;
+  width: 7px;
+  height: 12px;
+}
+header > .container > .top-nav-l li:nth-of-type(2) .login {
+  margin-right: -7px;
+}
+header > .container > .top-nav-r {
+  float: right;
+}
+header > .container > .top-nav-r > li {
+  float: left;
+  margin-right: 7px;
+  height: 35px;
+  position: relative;
+}
+header > .container > .top-nav-r > li > a {
+  color: #6C6C6C;
+  padding: 0 6px;
+  line-height: 35px;
+}
+header > .container > .top-nav-r > li > a:hover {
+  color: #f40;
+}
+header > .container > .top-nav-r > li > .fl {
+  padding-right: 0;
+}
+header > .container > .top-nav-r > li > .icon {
+  display: inline-block;
+  font-size: 6px;
+  width: 7px;
+  height: 12px;
+}
+header > .container > .top-nav-r > li .gwc,
+header > .container > .top-nav-r > li .scj {
+  display: inline-block;
+  margin-right: 5px;
+}
+header > .container > .top-nav-r > li > span {
+  color: #ddd;
+  line-height: 35px;
+}
+header > .container .bg:hover {
+  background: #fff;
+}
+.search {
+  min-height: 70px;
+}
+.search > .container {
+  padding-top: 10px;
+  margin: 0 auto;
+  height: 60px;
+  position: relative;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+.search > .container > .logo {
+  position: absolute;
+  top: 0;
+  float: left;
+  width: 106px;
+  height: 62px;
+  overflow: hidden;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+.search > .container > .logo > a {
+  color: #ff5000;
+}
+.search > .container > .logo > a > .icon {
+  width: 106px;
+  height: 80px;
+  display: block;
+  color: #ff4001;
+  font-size: 36px;
+  font-weight: 400;
+}
+.search > .container > .header-search {
+  margin-top: 10px;
+  float: right;
+  width: 427px;
+  height: 40px;
+  position: relative;
+}
+.search > .container > .header-search > .search-button {
+  position: relative;
+  z-index: 1;
+  float: right;
+  background-color: #fff;
+}
+.search > .container > .header-search > .search-button > button {
+  cursor: pointer;
+  border: 0;
+  font-size: 12px;
+  float: left;
+  width: 72px;
+  height: 30px;
+  background-color: #f40;
+  color: #fff;
+  margin-left: -1px;
+}
+.search > .container > .header-search > .search-button > button:hover {
+  background-color: #f22b00;
+}
+.search > .container > .header-search > .search-button > .bd {
+  background-color: #ffe4d0;
+  color: #f40;
+  border: 1px solid #ffb086;
+  margin-left: 3px;
+}
+.search > .container > .header-search > .search-button > .bd:hover {
+  background-color: #ffd9b3;
+}
+.search > .container > .header-search > .search-input {
+  width: 281px;
+  margin-left: 2px;
+  margin-right: 0;
+  margin-top: 2px;
+  height: 26px;
+  background: #fff;
+  position: relative;
+}
+.search > .container > .header-search > .search-input > input {
+  font-size: 12px;
+  position: absolute;
+  top: -4px;
+  height: 30px;
+  line-height: 20px;
+  padding: 3px;
+  margin: 2px 0 0 2px;
+  vertical-align: middle;
+  z-index: 2;
+  width: 100%;
+  outline: 0;
+  text-indent: 5px;
+  color: #000;
+  border: 3px solid #f40;
+}
+.main > .sec1 {
+  max-height: 150px;
+}
+.main > .sec1 > .top {
+  background-color: #d8e7fa;
+  height: 120px;
+  margin: 0 auto;
+}
+.main > .sec1 > .top img {
+  display: block;
+  width: 950px;
+  height: 120px;
+  margin: 0 auto;
+}
+.main > .sec1 > .buttom {
+  height: 30px;
+  background-color: #3f7fce;
+}
+.main > .sec1 > .buttom > .container {
+  width: 950px;
+  height: 30px;
+  margin: 0 auto;
+}
+.main > .sec1 > .buttom > .container > div {
+  float: left;
+  border-right: 1px solid #3871B7;
+}
+.main > .sec1 > .buttom > .container > div > a {
+  width: 65px;
+  display: block;
+  float: left;
+  color: #C2D5ED;
+  font-size: 12px;
+  font-weight: 100;
+  height: 30px;
+  line-height: 30px;
+}
+.main > .sec1 > .buttom > .container > div > a:hover {
+  color: #fff;
+}
+.main > .sec1 > .buttom > .container > .fenlei {
+  position: relative;
+  height: 30px;
+}
+.main > .sec1 > .buttom > .container > .fenlei:hover .all {
+  display: block;
+}
+.main > .sec1 > .buttom > .container > .fenlei > a {
+  padding: 0 20px;
+}
+.main > .sec1 > .buttom > .container > .fenlei > a:hover {
+  background-color: #2c5990;
+}
+.main > .sec1 > .buttom > .container > .fenlei > .icon {
+  position: absolute;
+  top: 10px;
+  left: 75px;
+  color: #fff;
+  font-size: 12px;
+}
+.main > .sec1 > .buttom > .container > .fenlei > .all {
+  z-index: 3;
+  width: 160px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  height: 30px;
+  background-color: #2c5990;
+  padding: 0 20px;
+  display: none;
+}
+.main > .sec1 > .buttom > .container > .fenlei > .all:hover .baby {
+  color: #fff;
+}
+.main > .sec1 > .buttom > .container > .fenlei > .all:hover ul {
+  display: block;
+}
+.main > .sec1 > .buttom > .container > .fenlei > .all > a {
+  color: #C2D5ED;
+  font-size: 12px;
+  font-weight: 100;
+  height: 30px;
+  line-height: 30px;
+}
+.main > .sec1 > .buttom > .container > .fenlei > .all > .icon {
+  position: absolute;
+  right: 5px;
+  font-size: 9px;
+  color: #C2D5ED;
+  top: 10px;
+}
+.main > .sec1 > .buttom > .container > .fenlei > .all ul {
+  width: 160px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  background: #000;
+  z-index: 3;
+  display: none;
+}
+.main > .sec1 > .buttom > .container > .fenlei > .all ul > li {
+  padding: 0 20px;
+}
+.main > .sec1 > .buttom > .container > .fenlei > .all ul > li:hover a {
+  color: #fff;
+}
+.main > .sec1 > .buttom > .container > .fenlei > .all ul > li > a {
+  line-height: 30px;
+  font-size: 12px;
+  height: 30px;
+  display: block;
+  color: #55a9f7;
+}
+.main > .sec1 > .buttom > .container > .index {
+  width: 24px;
+  padding: 0 20px;
+}
+.main > .sec1 > .buttom > .container > .index:hover {
+  background-color: #2c5990;
+}
+.main > .sec2 {
+  width: 100%;
+}
+.main > .sec2 > .container {
+  position: relative;
+  margin: 10px auto 0;
+  width: 1140px;
+  color: #3C3C3C;
+  height: 815px;
+  margin-bottom: 20px;
+  border: 1px solid #E8E8E8;
+}
+.main > .sec2 > .container > .left {
+  height: 815px;
+  margin-right: 198px;
+  border-right: 1px solid #E8E8E8;
+}
+.main > .sec2 > .container > .left > .l-left {
+  float: left;
+  padding: 20px 0 20px 20px;
+  width: 400px;
+  position: relative;
+}
+.main > .sec2 > .container > .left > .l-left > .show {
+  width: 400px;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .top {
+  text-align: center;
+  position: relative;
+  margin-bottom: 15px;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  background-color: #3871B7;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .top > img {
+  height: 400px;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .middle > li {
+  float: left;
+  margin-right: 13px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .middle > li > img {
+  width: 38px;
+  height: 50px;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .middle > .active {
+  border-color: #f40;
+}

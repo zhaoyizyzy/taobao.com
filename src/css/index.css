@@ -1,0 +1,1343 @@
+@charset "utf-8";
+body {
+  font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+  background: 0 35px url(../img/bg1.png) repeat-y;
+  background-size: cover;
+}
+header {
+  width: 100%;
+  height: 35px;
+  background-color: #f5f5f5;
+}
+header > .container {
+  font-size: 12px;
+  height: 35px;
+}
+header > .container > .top-nav-l {
+  float: left;
+}
+header > .container > .top-nav-l > li {
+  float: left;
+  margin-right: 7px;
+  height: 35px;
+  position: relative;
+}
+header > .container > .top-nav-l > li > a {
+  color: #6C6C6C;
+  padding: 0 6px;
+  line-height: 35px;
+}
+header > .container > .top-nav-l > li > a:hover {
+  color: #f40;
+}
+header > .container > .top-nav-l > li > .login {
+  color: #f40;
+}
+header > .container > .top-nav-l li:nth-of-type(1) .icon {
+  display: inline-block;
+  font-size: 6px;
+  width: 7px;
+  height: 12px;
+}
+header > .container > .top-nav-l li:nth-of-type(2) .login {
+  margin-right: -7px;
+}
+header > .container > .top-nav-r {
+  float: right;
+}
+header > .container > .top-nav-r > li {
+  float: left;
+  margin-right: 7px;
+  height: 35px;
+  position: relative;
+}
+header > .container > .top-nav-r > li > a {
+  color: #6C6C6C;
+  padding: 0 6px;
+  line-height: 35px;
+}
+header > .container > .top-nav-r > li > a:hover {
+  color: #f40;
+}
+header > .container > .top-nav-r > li > .fl {
+  padding-right: 0;
+}
+header > .container > .top-nav-r > li > .icon {
+  display: inline-block;
+  font-size: 6px;
+  width: 7px;
+  height: 12px;
+}
+header > .container > .top-nav-r > li .gwc,
+header > .container > .top-nav-r > li .scj {
+  display: inline-block;
+  margin-right: 5px;
+}
+header > .container > .top-nav-r > li > span {
+  color: #ddd;
+  line-height: 35px;
+}
+header > .container .bg:hover {
+  background: #fff;
+}
+.search {
+  width: 100%;
+  height: 97px;
+  padding-top: 24px;
+}
+.search > .container > .logo {
+  float: left;
+  width: 190px;
+  height: 90px;
+  margin-left: 22px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.search > .container > .logo > img {
+  width: 142px;
+  height: 58px;
+}
+.search > .container > .middle {
+  padding-top: 14px;
+  float: left;
+  position: relative;
+  margin-left: 50px;
+}
+.search > .container > .middle > .top {
+  width: 628px;
+  height: 40px;
+  border: 1px solid #f40;
+  border-radius: 20px;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.search > .container > .middle > .top > .left {
+  height: 40px;
+  background-color: #fff;
+  float: left;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+}
+.search > .container > .middle > .top > .left:hover {
+  height: 120px;
+}
+.search > .container > .middle > .top > .left > .bb {
+  border-right: 1px solid #f0f0f0;
+  position: relative;
+}
+.search > .container > .middle > .top > .left > .bb > .icon {
+  font-size: 7px;
+  color: #000;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.search > .container > .middle > .top > .left > li {
+  width: 72px;
+  height: 40px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  color: #6C6C6C;
+}
+.search > .container > .middle > .top > input {
+  width: 470px;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  font-size: 12px;
+  color: #6C6C6C;
+  padding-left: 10px;
+}
+.search > .container > .middle > .top > .fdj {
+  position: absolute;
+  top: 10px;
+  left: 83px;
+  font-size: 18px;
+  color: #000;
+}
+.search > .container > .middle > .top > .mr {
+  position: absolute;
+  top: 12px;
+  left: 105px;
+  font-size: 12px;
+  color: #aaa;
+  user-select: none;
+}
+.search > .container > .middle > .top > .sousuo {
+  display: block;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFF;
+  background-image: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+  height: 34px;
+  border-radius: 17px;
+  width: 73px;
+}
+.search > .container > .middle .bottom {
+  font-size: 12px;
+  position: absolute;
+  top: 62px;
+}
+.search > .container > .middle .bottom > li {
+  float: left;
+  margin-right: 4px;
+}
+.search > .container > .middle .bottom > li > a {
+  color: #3C3C3C;
+}
+.search > .container > .middle .bottom > li > a:hover {
+  color: #f40;
+}
+.search > .container > .middle .bottom > .active a {
+  color: #f40;
+}
+.search > .container > .download {
+  margin-left: 110px;
+  float: left;
+  width: 76px;
+  height: 90px;
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+  cursor: pointer;
+}
+.search > .container > .download > p {
+  line-height: 20px;
+  font-size: 12px;
+  margin: 4px auto 0;
+  text-align: center;
+  color: #ff5000;
+}
+.search > .container > .download > img {
+  width: 62px;
+  height: 62px;
+  margin-left: 6px;
+}
+.fix-search {
+  display: none;
+  width: 100%;
+  height: 40px;
+  padding: 7px 0;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.fix-search > .container > .logo {
+  float: left;
+  width: 80px;
+  margin-left: 22px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.fix-search > .container > .logo > img {
+  width: 80px;
+  height: 33px;
+}
+.fix-search > .container > .middle {
+  float: left;
+  position: relative;
+  margin-left: 150px;
+}
+.fix-search > .container > .middle > .top {
+  width: 628px;
+  height: 40px;
+  border: 1px solid #f40;
+  border-radius: 20px;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+}
+.fix-search > .container > .middle > .top > .left {
+  height: 40px;
+  background-color: #fff;
+  float: left;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+}
+.fix-search > .container > .middle > .top > .left:hover {
+  height: 120px;
+}
+.fix-search > .container > .middle > .top > .left > .bb {
+  border-right: 1px solid #f0f0f0;
+  position: relative;
+}
+.fix-search > .container > .middle > .top > .left > .bb > .icon {
+  font-size: 7px;
+  color: #000;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
+.fix-search > .container > .middle > .top > .left > li {
+  width: 72px;
+  height: 40px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  color: #6C6C6C;
+}
+.fix-search > .container > .middle > .top > input {
+  width: 470px;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  font-size: 12px;
+  color: #6C6C6C;
+  padding-left: 10px;
+}
+.fix-search > .container > .middle > .top > .fdj {
+  position: absolute;
+  top: 10px;
+  left: 83px;
+  font-size: 18px;
+  color: #000;
+}
+.fix-search > .container > .middle > .top > .mr {
+  position: absolute;
+  top: 12px;
+  left: 105px;
+  font-size: 12px;
+  color: #aaa;
+  user-select: none;
+}
+.fix-search > .container > .middle > .top > .sousuo {
+  display: block;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFF;
+  background-image: linear-gradient(to right, #ff9000 0, #ff5000 100%);
+  height: 34px;
+  border-radius: 17px;
+  width: 73px;
+}
+.main > .container {
+  background-color: #fff;
+  padding-top: 6px;
+  border-radius: 18px;
+  position: relative;
+  height: 6105px;
+}
+.main > .container > .topnav {
+  width: 1190px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  position: absolute;
+  overflow: hidden;
+}
+.main > .container > .topnav > h2 {
+  width: 190px;
+  height: 30px;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  color: #FF6200;
+  margin-right: 52px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.main > .container > .topnav > ul {
+  float: left;
+}
+.main > .container > .topnav > ul > li {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+.main > .container > .topnav > .left {
+  font-size: 16px;
+  font-weight: 700;
+}
+.main > .container > .topnav > .left > li {
+  margin: 0 3px;
+  text-align: center;
+  padding: 0 4px;
+}
+.main > .container > .topnav > .left > li > a {
+  color: #FF0036;
+  padding: 0 5px;
+}
+.main > .container > .topnav > .left > li > a:hover {
+  color: #ff5000;
+}
+.main > .container > .topnav > .left > li:nth-of-type(3) > a {
+  color: #33c900;
+}
+.main > .container > .topnav > .left > li:nth-of-type(3) > a:hover {
+  color: #ff5000;
+}
+.main > .container > .topnav > .middle {
+  font-size: 14px;
+}
+.main > .container > .topnav > .middle > li {
+  margin-left: 7px;
+}
+.main > .container > .topnav > .middle > li > a {
+  color: #333;
+  padding: 0 5px;
+}
+.main > .container > .topnav > .middle > li > a:hover {
+  color: #f40;
+}
+.main > .container > .topnav > .right {
+  font-size: 14px;
+}
+.main > .container > .topnav > .right > li {
+  margin-left: 7px;
+}
+.main > .container > .topnav > .right > li > a {
+  color: #333;
+  padding: 0 5px;
+}
+.main > .container > .topnav > .right > li > a:hover {
+  color: #f40;
+}
+.main > .container > .inner {
+  position: absolute;
+  top: 36px;
+}
+.main > .container > .inner > .innerleft {
+  position: relative;
+  float: left;
+  width: 212px;
+  height: 526px;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.main > .container > .inner > .innerleft > ul {
+  padding: 6px 0 3px 18px;
+}
+.main > .container > .inner > .innerleft > ul > li {
+  overflow: hidden;
+  line-height: 20px;
+  height: 20px;
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 14px;
+  width: 212px;
+  color: #666;
+}
+.main > .container > .inner > .innerleft > ul > li:hover {
+  color: #f40;
+}
+.main > .container > .inner > .innerleft > ul > li:hover > a {
+  color: #f40;
+}
+.main > .container > .inner > .innerleft > ul > li > a {
+  color: #666;
+}
+.main > .container > .inner > .innerleft > ul > li > a:hover {
+  text-decoration: underline;
+}
+.main > .container > .inner > .innerleft > ul > li > span {
+  height: 20px;
+  overflow: hidden;
+  width: 7px;
+  padding: 0 4px;
+}
+.main > .container > .inner > .innerleft > ul > li > .icon {
+  margin-right: 12px;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+}
+.main > .container > .inner > .innermiddle {
+  position: relative;
+  overflow: hidden;
+  width: 520px;
+  padding-top: 6px;
+}
+.main > .container > .inner > .innermiddle > .slider {
+  width: 520px;
+  height: 280px;
+  float: left;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+}
+.main > .container > .inner > .innermiddle > .slider > a {
+  display: block;
+  width: 3000px;
+  position: absolute;
+  overflow: hidden;
+}
+.main > .container > .inner > .innermiddle > .slider > a > img {
+  width: 520px;
+  height: 280px;
+  float: left;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.main > .container > .inner > .innermiddle > .slider > span {
+  display: block;
+  width: 20px;
+  height: 30px;
+  background-color: rgba(58, 57, 57, 0.5);
+  opacity: 0;
+  position: absolute;
+  top: 45%;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  line-height: 30px;
+}
+.main > .container > .inner > .innermiddle > .slider > .prev {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.main > .container > .inner > .innermiddle > .slider > .next {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.main > .container > .inner > .innermiddle > .slider > span.prev {
+  left: 0;
+}
+.main > .container > .inner > .innermiddle > .slider > span.next {
+  right: 0;
+}
+.main > .container > .inner > .innermiddle > .slider:hover span {
+  opacity: 1;
+}
+.main > .container > .inner > .innermiddle > .slider > .dian {
+  border-radius: 10px;
+  position: absolute;
+  bottom: 15px;
+  height: 13px;
+  text-align: center;
+  font-size: 0;
+  left: 50%;
+  margin-left: -39px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.main > .container > .inner > .innermiddle > .slider > .dian > li {
+  display: inline-block;
+  margin: 3px;
+}
+.main > .container > .inner > .innermiddle > .slider > .dian > li > a {
+  display: block;
+  padding-top: 8px;
+  width: 8px;
+  height: 0;
+  border-radius: 50%;
+  background: #fff;
+}
+.main > .container > .inner > .innermiddle > .slider > .dian > .selected a {
+  background: #ff5000;
+}
+.main > .container > .inner > .innermiddle > .lbt {
+  position: relative;
+  width: 520px;
+  height: 230px;
+  margin-top: 1px;
+  overflow: hidden;
+}
+.main > .container > .inner > .innermiddle > .lbt > .top {
+  width: 520px;
+  height: 30px;
+  padding-top: 6px;
+  line-height: 24px;
+  position: relative;
+}
+.main > .container > .inner > .innermiddle > .lbt > .top > img {
+  width: 74px;
+  height: 22px;
+  float: left;
+}
+.main > .container > .inner > .innermiddle > .lbt > .top > .title {
+  font-size: 12px;
+  color: #999;
+  position: relative;
+  margin-left: 80px;
+  line-height: 22px;
+}
+.main > .container > .inner > .innermiddle > .lbt > .top > strong {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.main > .container > .inner > .innermiddle > .lbt > .bottom {
+  width: 520px;
+}
+.main > .container > .inner > .innermiddle > .lbt > .bottom > .banner2 {
+  width: 514px;
+  height: 188px;
+  float: left;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+  padding: 3px;
+  background-color: #eeecec;
+}
+.main > .container > .inner > .innermiddle > .lbt > .bottom > .banner2 > a {
+  display: block;
+  width: 3000px;
+  position: absolute;
+  overflow: hidden;
+}
+.main > .container > .inner > .innermiddle > .lbt > .bottom > .banner2 > a > img {
+  width: 251px;
+  height: 190px;
+  float: left;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+.main > .container > .inner > .innermiddle > .lbt > .bottom > .banner2 > a > .ql {
+  width: 250px;
+  height: 155px;
+  margin-top: 16px;
+}
+.main > .container > .inner > .innermiddle > .lbt > .bottom > .banner2 > span {
+  display: block;
+  width: 20px;
+  height: 30px;
+  background-color: rgba(58, 57, 57, 0.5);
+  opacity: 0;
+  position: absolute;
+  top: 45%;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  line-height: 30px;
+}
+.main > .container > .inner > .innermiddle > .lbt > .bottom > .banner2 > .prev {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.main > .container > .inner > .innermiddle > .lbt > .bottom > .banner2 > .next {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.main > .container > .inner > .innermiddle > .lbt > .bottom > .banner2 > span.prev {
+  left: 0;
+}
+.main > .container > .inner > .innermiddle > .lbt > .bottom > .banner2 > span.next {
+  right: 0;
+}
+.main > .container > .inner > .innermiddle > .lbt > .bottom > .banner2:hover span {
+  opacity: 1;
+}
+.main > .container > .inner > .innerright {
+  position: absolute;
+  top: -5px;
+  right: -438px;
+  float: right;
+  width: 384px;
+  height: 508px;
+  border-radius: 12px;
+  margin-right: 18px;
+  margin-top: 10px;
+  background-color: #F3F3F3;
+}
+.main > .container > .inner > .innerright > .tx {
+  margin: 20px auto 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.main > .container > .inner > .innerright > .tx > img {
+  width: 50px;
+  height: 50px;
+}
+.main > .container > .inner > .innerright > p {
+  font-size: 12px;
+  margin-top: 4px;
+  line-height: 17px;
+  height: 17px;
+  text-align: center;
+}
+.main > .container > .inner > .innerright > p:hover {
+  color: #f40;
+}
+.main > .container > .inner > .innerright .login {
+  height: 42px;
+  overflow: hidden;
+  margin-top: 21px;
+  padding-left: 14px;
+}
+.main > .container > .inner > .innerright .login > a {
+  float: left;
+  line-height: 32px;
+  width: 116px;
+  margin-right: 6px;
+  text-align: center;
+  color: #FFF;
+  background-image: linear-gradient(to right, #ff5000 0, #ff6f06 100%);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.main > .container > .inner > .innerright .chatu {
+  margin-top: 6px;
+  width: 356px;
+  height: 141px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-left: 14px;
+  position: relative;
+}
+.main > .container > .inner > .innerright .notice {
+  margin-left: 14px;
+}
+.main > .container > .inner > .innerright .notice > .gg {
+  margin: 17px 0 14px;
+  height: 16px;
+  line-height: 16px;
+}
+.main > .container > .inner > .innerright .notice > .gg > .gg-title {
+  height: 16px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #3C3C3C;
+}
+.main > .container > .inner > .innerright .notice > .gg > .gg-content {
+  margin-left: 6px;
+  height: 16px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #3C3C3C;
+}
+.main > .container > .inner > .innerright .notice > div {
+  margin-bottom: 8px;
+  line-height: 18px;
+  height: 18px;
+  position: relative;
+  overflow: hidden;
+}
+.main > .container > .inner > .innerright .notice > div > .gz {
+  height: 18px;
+  width: 32px;
+  line-height: 18px;
+  border-radius: 2px;
+  background-color: rgba(255, 174, 174, 0.2);
+  opacity: 0.8;
+  text-align: center;
+  font-size: 12px;
+  color: #FF5000;
+  font-weight: 700;
+  float: left;
+}
+.main > .container > .inner > .innerright .notice > div > .gz-c {
+  font-size: 12px;
+  color: #666;
+  margin-left: 8px;
+  float: left;
+  width: 295px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.main > .container > .inner > .innerright > ul {
+  position: relative;
+  margin: 20px 0 0 12px;
+  overflow: hidden;
+}
+.main > .container > .inner > .innerright > ul > li {
+  float: left;
+  margin-right: 43px;
+}
+.main > .container > .inner > .innerright > ul > li > a > .icon {
+  color: #3C3C3C;
+  width: 60px;
+  font-size: 24px;
+  text-align: center;
+}
+.main > .container > .inner > .innerright > ul > li > a > p {
+  font-size: 12px;
+  color: #333;
+  width: 60px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 10px;
+}
+.main > .container > .inner > .innerright > ul > li > a:hover .icon {
+  color: #f40;
+}
+.main > .container > .inner > .innerright > ul > .zy {
+  margin-right: 0;
+}
+.main > .container > .sec1 {
+  padding-top: 10px;
+  height: 330px;
+  position: absolute;
+  top: 556px;
+  padding-left: 20px;
+}
+.main > .container > .sec1 > h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main > .container > .sec1 > h3 > span {
+  font-size: 24px;
+  color: #111;
+  font-weight: bold;
+  line-height: 24px;
+}
+.main > .container > .sec1 > h3 > img {
+  margin-top: -6px;
+}
+.main > .container > .sec1 > ul {
+  height: 310px;
+  overflow: hidden;
+}
+.main > .container > .sec1 > ul > a {
+  display: block;
+  float: left;
+  width: 215px;
+  overflow: hidden;
+  margin: 0 0 0 20px;
+}
+.main > .container > .sec1 > ul > a:hover h4 {
+  color: #f40;
+}
+.main > .container > .sec1 > ul > a:hover div div {
+  opacity: 0.1;
+}
+.main > .container > .sec1 > ul > a > div {
+  position: relative;
+  overflow: hidden;
+  width: 215px;
+  height: 215px;
+  border-radius: 12px;
+}
+.main > .container > .sec1 > ul > a > div > img {
+  width: 215px;
+  height: 215px;
+  border-radius: 12px;
+  display: block;
+}
+.main > .container > .sec1 > ul > a > div > div {
+  border-radius: 12px;
+  position: absolute;
+  opacity: 0.2;
+  background: #000;
+  top: 0;
+  left: 0;
+  width: 215px;
+  height: 215px;
+}
+.main > .container > .sec1 > ul > a > h4 {
+  font-size: 16px;
+  color: #333333;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: 10px;
+  font-weight: normal;
+  width: 198px;
+  overflow: hidden;
+  height: 16px;
+}
+.main > .container > .sec1 > ul > a > p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #999999;
+  letter-spacing: 0;
+  line-height: 15px;
+  text-overflow: ellipsis;
+  width: 182px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.main > .container > .sec1 > ul > .img1 {
+  margin-left: 0;
+}
+.main > .container > .sec2 {
+  padding-top: 10px;
+  height: 330px;
+  position: absolute;
+  top: 886px;
+  padding-left: 20px;
+}
+.main > .container > .sec2 > h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main > .container > .sec2 > h3 > span {
+  font-size: 24px;
+  color: #111;
+  font-weight: bold;
+  line-height: 24px;
+}
+.main > .container > .sec2 > h3 > img {
+  margin-top: -6px;
+}
+.main > .container > .sec2 > .list {
+  min-height: 652px;
+}
+.main > .container > .sec2 > .list > .item {
+  border-radius: 12px;
+  float: left;
+  padding: 7px 7px 0 7px;
+  margin: 0 0 2px 4px;
+  color: #6c6c6c;
+  width: 215px;
+  height: 319px;
+  position: relative;
+}
+.main > .container > .sec2 > .list > .item:hover {
+  transition: all 0.5s;
+  background-color: #fff;
+  box-shadow: 0 19px 39px 0 rgba(0, 0, 0, 0.12);
+}
+.main > .container > .sec2 > .list > .item:hover h4 {
+  color: #f40;
+}
+.main > .container > .sec2 > .list > .item .img-wrapper {
+  width: 215px;
+  height: 215px;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.main > .container > .sec2 > .list > .item .img-wrapper > img {
+  display: block;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+}
+.main > .container > .sec2 > .list > .item .img-wrapper > img:hover {
+  opacity: 0.9;
+}
+.main > .container > .sec2 > .list > .item h4 {
+  margin-top: 9px;
+  line-height: 22px;
+  height: 44px;
+  font-size: 16px;
+  color: #111111;
+  font-weight: normal;
+  transition: color 0.3s;
+  overflow: hidden;
+}
+.main > .container > .sec2 > .list > .item h4 > img {
+  height: 16px;
+  vertical-align: top;
+  margin-top: 3px;
+  margin-right: 2px;
+}
+.main > .container > .sec2 > .list > .item > p {
+  margin-top: 11px;
+  height: 22px;
+  line-height: 22px;
+  color: #F40;
+  font-size: 20px;
+}
+.main > .container > .sec2 > .list > .item > p > em {
+  font-family: "Microsoft Yahei";
+  display: inline-block;
+  margin-right: -2px;
+  font-size: 12px;
+}
+.main > .container > .end {
+  position: absolute;
+  top: 5880px;
+  width: 100%;
+  height: 50px;
+}
+.main > .container > .end > div {
+  position: relative;
+}
+.main > .container > .end > div > p {
+  position: absolute;
+  text-align: center;
+  color: #ccccd0;
+  left: 50%;
+  width: 84px;
+  line-height: 20px;
+  font-size: 18px;
+  margin-left: -42px;
+  font-style: normal;
+  top: 20px;
+}
+.main > .container > .end > div > p::before {
+  content: ' ';
+  position: absolute;
+  height: 0;
+  line-height: 0;
+  border-top: 1px solid #e6e6e6;
+  width: 60px;
+  top: 50%;
+  left: -70px;
+}
+.main > .container > .end > div > p::after {
+  content: ' ';
+  position: absolute;
+  height: 0;
+  line-height: 0;
+  border-top: 1px solid #e6e6e6;
+  width: 60px;
+  top: 50%;
+  right: -70px;
+}
+.main > .container > .layer {
+  width: 1190px;
+  height: 180px;
+  padding-top: 40px;
+  position: absolute;
+  top: 5930px;
+}
+.main > .container > .layer > ul > li {
+  float: left;
+  margin-right: -1px;
+  width: 25%;
+  position: relative;
+  padding: 0 25px;
+}
+.main > .container > .layer > ul > li > h4 {
+  margin-bottom: 5px;
+}
+.main > .container > .layer > ul > li > h4 > .icon {
+  float: left;
+  font-size: 46px;
+  color: #999;
+}
+.main > .container > .layer > ul > li > h4 > span {
+  float: left;
+  margin-left: 5px;
+  padding-top: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #3C3C3C;
+}
+.main > .container > .layer > ul > li > ul {
+  position: absolute;
+  top: 55px;
+}
+.main > .container > .layer > ul > li > ul > li {
+  margin-right: 20px;
+  float: left;
+  width: auto;
+}
+.main > .container > .layer > ul > li > ul > li > a {
+  color: #999;
+  font-size: 12px;
+}
+.main > .container > .layer > ul > li > ul > li > a:hover {
+  color: #f40;
+}
+.footer {
+  width: 100%;
+  min-height: 150px;
+  margin-top: 20px;
+  padding-bottom: 9px;
+  background-color: #fff;
+  font-size: 12px;
+}
+.footer > .container > .top {
+  padding-top: 7px;
+}
+.footer > .container > .top > p {
+  margin-bottom: 8px;
+  line-height: 27px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+.footer > .container > .top > p > span {
+  margin: 0 1px;
+  color: #9c9c9c;
+}
+.footer > .container > .top > p > span > a {
+  white-space: nowrap;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.footer > .container > .top > p > span > a:hover {
+  color: #f40;
+}
+.footer > .container > .top > p > b {
+  margin: 0 3px;
+  font-weight: 400;
+  color: #ddd;
+}
+.footer > .container > .middle > .gytb {
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+.footer > .container > .middle > .gytb > span {
+  margin: 0 4px;
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .gytb > span > a {
+  white-space: nowrap;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.footer > .container > .middle > .gytb > span > a:hover {
+  color: #f40;
+}
+.footer > .container > .middle > .gytb > span > span {
+  margin-left: 30px;
+  font-style: normal;
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .zz {
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+.footer > .container > .middle > .zz > span {
+  margin: 0 4px;
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .zz > span > a {
+  white-space: nowrap;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.footer > .container > .middle > .zz > span > a:hover {
+  color: #f40;
+}
+.footer > .container > .middle > .zz > b {
+  margin: 0 3px;
+  font-weight: 400;
+  color: #ddd;
+}
+.footer > .container > .middle > .zz > span:nth-of-type(4) {
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .hlw {
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+.footer > .container > .middle > .hlw > span {
+  color: #9c9c9c;
+  margin: 0 4px;
+}
+.footer > .container > .middle > .hlw > b {
+  margin: 0 -1px;
+  font-weight: 400;
+  color: #ddd;
+}
+.footer > .container > .middle > .zs {
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+.footer > .container > .middle > .zs > span {
+  margin: 0 4px;
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .zs > span > a {
+  white-space: nowrap;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.footer > .container > .middle > .zs > span > a:hover {
+  color: #f40;
+}
+.footer > .container > .middle > .zs > span > a > span {
+  display: inline-block;
+  background-position: -861px 0px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/jlt.jpg);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.footer > .container > .middle > .zs > b {
+  margin: 0 -1px;
+  font-weight: 400;
+  color: #ddd;
+}
+.footer > .container > .bottom > span {
+  margin: 0 4px;
+  color: #9c9c9c;
+}
+.footer > .container > .bottom > span > a {
+  background-image: url(../img/jlt.jpg);
+  margin-right: 15px;
+  height: 40px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  color: #3C3C3C;
+}
+.footer > .container > .bottom > span:nth-of-type(1) a {
+  width: 30px;
+  background-position: 0px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(2) a {
+  width: 50px;
+  background-position: -80px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(3) a {
+  width: 83px;
+  background-position: -140px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(4) a {
+  width: 250px;
+  background-position: 0px -18px;
+  background-image: url(../img/footer3.png_250x250);
+}
+.footer > .container > .bottom > span:nth-of-type(5) a {
+  width: 105px;
+  background-position: -650px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(6) a {
+  width: 82px;
+  background-position: -345px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(7) a {
+  width: 97px;
+  background-position: -761px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(8) a {
+  width: 249px;
+  background-position: -884px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(9) a {
+  width: 249px;
+  background-position: 0px 0px;
+  background-image: url(../img/footer1.jpg);
+}
+.footer > .container > .bottom > span:nth-of-type(10) a {
+  width: 249px;
+  background-position: 0px 0px;
+  background-image: url(../img/footer2.png);
+  background-size: contain;
+  height: 71px;
+}
+.fixedtool {
+  position: absolute;
+  top: 531px;
+  display: block;
+  transition: none 0s ease 0s;
+  z-index: 4;
+  right: 50%;
+  width: 50px;
+  text-align: center;
+  margin-right: -655px;
+}
+.fixedtool > .icon {
+  position: absolute;
+  height: 36px;
+  width: 50px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 32px;
+  color: #ff7f13;
+  top: -20px;
+  right: 0;
+  font-style: normal;
+  display: inline-block;
+}
+.fixedtool > a {
+  display: block;
+  position: relative;
+  padding: 6px 8px 0;
+  background-color: #fff;
+  transition: all 0.2s;
+}
+.fixedtool > a:hover {
+  color: #FFF;
+  background-image: linear-gradient(135deg, #ff971b, #ff5000);
+}
+.fixedtool > .pzhh {
+  color: #F40;
+  z-index: 2;
+  text-decoration: none;
+  font-weight: 700;
+  background-repeat: repeat-x;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-clip: padding-box;
+  padding-top: 10px;
+  height: 40px;
+  line-height: 17px;
+  font-size: 13px;
+}
+.fixedtool > .cnxh {
+  color: #F40;
+  line-height: 17px;
+  font-size: 13px;
+  height: 44px;
+  position: relative;
+}
+.fixedtool > .cnxh::before {
+  content: '';
+  border-bottom: 1px solid #efefef;
+  width: 34px;
+  position: absolute;
+  left: 8px;
+  bottom: -1px;
+  z-index: 1;
+}
+.fixedtool > .active {
+  background-image: linear-gradient(135deg, #ff971b, #ff5000);
+  color: #FFF;
+}
+.fixedtool > .dingbu {
+  color: #3C3C3C;
+  line-height: 17px;
+  font-size: 12px;
+  height: 44px;
+  position: relative;
+  display: none;
+}
+.fixedtool > .dingbu::before {
+  content: '';
+  border-bottom: 1px solid #efefef;
+  width: 34px;
+  position: absolute;
+  left: 8px;
+  bottom: -1px;
+  z-index: 1;
+}
+.fixedtool > .dingbu > .icon {
+  color: #999;
+  position: relative;
+  line-height: 20px;
+  font-size: 14px;
+  display: block;
+  width: 34px;
+  height: 20px;
+}
+.fixedtool > .rec {
+  font-size: 12px;
+  line-height: 40px;
+  position: relative;
+  color: #3C3C3C;
+}
+.fixedtool > .rec::before {
+  content: '';
+  border-bottom: 1px solid #efefef;
+  width: 34px;
+  position: absolute;
+  left: 8px;
+  bottom: -1px;
+  z-index: 1;
+}
+.fixedtool > .bk {
+  color: #3C3C3C;
+  line-height: 17px;
+  font-size: 12px;
+  height: 44px;
+  position: relative;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.fix {
+  position: fixed;
+  top: 76px;
+}
