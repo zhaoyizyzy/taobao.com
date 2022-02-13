@@ -306,6 +306,7 @@ header > .container .bg:hover {
 }
 .main > .sec2 > .container > .left {
   height: 815px;
+  float: left;
   margin-right: 198px;
   border-right: 1px solid #E8E8E8;
 }
@@ -325,7 +326,6 @@ header > .container .bg:hover {
   width: 400px;
   height: 400px;
   overflow: hidden;
-  background-color: #3871B7;
 }
 .main > .sec2 > .container > .left > .l-left > .show > .top > img {
   height: 400px;
@@ -345,4 +345,1503 @@ header > .container .bg:hover {
 }
 .main > .sec2 > .container > .left > .l-left > .show > .middle > .active {
   border-color: #f40;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .buttom {
+  float: left;
+  z-index: 2;
+  position: relative;
+  margin-top: 18px;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .buttom > a {
+  color: #6C6C6C;
+  line-height: 22px;
+  font-size: 12px;
+  background: 0 0;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .buttom > a > .icon {
+  float: left;
+  margin: 4px 5px 0 0;
+  width: 16px;
+  height: 16px;
+}
+.main > .sec2 > .container > .left > .r-left {
+  float: left;
+  padding: 0 20px 20px 0;
+  width: 498px;
+}
+.main > .sec2 > .container > .left > .r-left > .box {
+  padding-left: 18px;
+}
+.main > .sec2 > .container > .left > .r-left > .box > .title {
+  padding: 20px 0 10px;
+  min-height: 21px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #3C3C3C;
+}
+.main > .sec2 > .container > .left > .r-left > .middle {
+  position: relative;
+  padding: 10px;
+  background-color: #FFF2E8;
+  margin-left: 18px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > li {
+  line-height: 24px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .price {
+  margin-bottom: 5px;
+  width: 345px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .price > span {
+  font-size: 12px;
+  display: inline;
+  float: left;
+  width: 60px;
+  color: #6c6c6c;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .price > div {
+  overflow: hidden;
+  font-size: 14px;
+  color: #3c3c3c;
+  font-weight: 400;
+  text-decoration: line-through;
+  position: relative;
+  top: -2px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .price > div > em {
+  font-family: arial;
+  font-weight: 400;
+  margin-right: 4px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .tb-price {
+  height: 28px;
+  position: relative;
+  margin-bottom: 5px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .tb-price > span {
+  margin-top: 2px;
+  font-size: 12px;
+  display: inline;
+  float: left;
+  width: 60px;
+  color: #6c6c6c;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .tb-price > .right {
+  width: 360px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+  float: left;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .tb-price > .right > .left {
+  display: inline;
+  float: left;
+  padding: 0;
+  margin-right: 5px;
+  vertical-align: baseline;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  color: #F40;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .tb-price > .right > .left > span {
+  font-family: arial;
+  font-weight: 400;
+  margin-right: 4px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .tb-price > .right > span {
+  font-size: 12px;
+  padding: 0 4px;
+  height: 18px;
+  line-height: 18px;
+  color: #FFF;
+  background: #FF8E1B;
+  margin-top: 5px;
+  display: inline;
+  float: left;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .tb-price > .right > .btm {
+  position: absolute;
+  top: 35px;
+  left: -10px;
+  z-index: 10;
+  width: 478px;
+  border: 1px solid #F5F5F5;
+  border-top: none;
+  background: #FFF;
+  overflow: hidden;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .clear {
+  width: 480px;
+  margin-left: -10px;
+  padding-left: 10px;
+  margin-top: 16px;
+  background-color: #FFF9F5;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .clear > span {
+  margin-top: 5px;
+  font-size: 12px;
+  display: inline;
+  float: left;
+  width: 60px;
+  color: #6c6c6c;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .clear > .right {
+  margin: 4px -10px -10px;
+  padding: 0 10px 5px 70px;
+  line-height: 15px;
+  font-size: 12px;
+  color: #3c3c3c;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .clear > .right > .tjb {
+  padding-top: 5px;
+  line-height: 25px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .clear > .right > .tjb > .icon {
+  font-size: 16px;
+  background-color: #f1bb85;
+  color: #f40;
+  border-radius: 50%;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .clear > .right > .tjb > strong {
+  font-weight: bolder;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .clear > .right > .youhui {
+  border-top: 1px solid #FFF2E8;
+  padding-top: 5px;
+  line-height: 25px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .clear > .right > .youhui > div {
+  line-height: 25px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .clear > .right > .youhui > div > img {
+  height: 16px;
+  margin-right: 5px;
+  margin-top: -3px;
+  vertical-align: middle;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .clear > .right > .youhui > div a {
+  margin-left: 5px;
+  border-bottom: 1px dotted #f40;
+  color: #f40;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .xl {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .xl > div {
+  float: left;
+  text-align: center;
+  padding: 0 9px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .xl > div > a {
+  color: #6C6C6C;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.main > .sec2 > .container > .left > .r-left > .middle > .xl > div > a > span {
+  display: block;
+  color: #6C6C6C;
+  text-align: center;
+  font-size: 12px;
+}
+.main > .sec2 > .container > .left > .r-left > .send {
+  padding: 10px;
+  margin-left: 18px;
+}
+.main > .sec2 > .container > .left > .r-left > .send > span {
+  font-size: 12px;
+  display: inline;
+  float: left;
+  width: 60px;
+  color: #6c6c6c;
+}
+.main > .sec2 > .container > .left > .r-left > .send > div > span {
+  float: left;
+  font-size: 12px;
+  color: #3c3c3c;
+}
+.main > .sec2 > .container > .left > .r-left > .send > div > span > .icon {
+  font-size: 9px;
+  margin: 0 6px;
+}
+.main > .sec2 > .container > .left > .r-left > .size {
+  padding: 10px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.main > .sec2 > .container > .left > .r-left > .size > span {
+  font-size: 12px;
+  display: inline;
+  float: left;
+  width: 60px;
+  color: #6c6c6c;
+}
+.main > .sec2 > .container > .left > .r-left > .size > ul {
+  float: left;
+}
+.main > .sec2 > .container > .left > .r-left > .size > ul > li {
+  float: left;
+  margin: 0 8px 10px 0;
+  width: 24px;
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #bbb;
+  text-align: center;
+  font-size: 12px;
+}
+.main > .sec2 > .container > .left > .r-left > .color {
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+.main > .sec2 > .container > .left > .r-left > .color > span {
+  font-size: 12px;
+  display: inline;
+  float: left;
+  width: 60px;
+  color: #6c6c6c;
+}
+.main > .sec2 > .container > .left > .r-left > .color > ul {
+  float: left;
+}
+.main > .sec2 > .container > .left > .r-left > .color > ul > li {
+  float: left;
+  margin: 0 8px 10px 0;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #bbb;
+  text-align: center;
+  font-size: 12px;
+}
+.main > .sec2 > .container > .left > .r-left > .color > ul > li > img {
+  width: 30px;
+  height: 30px;
+  margin-top: 3px;
+}
+.main > .sec2 > .container > .left > .r-left > .count {
+  padding: 10px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+  margin-top: 36px;
+}
+.main > .sec2 > .container > .left > .r-left > .count > span {
+  font-size: 12px;
+  display: inline;
+  float: left;
+  width: 60px;
+  color: #6c6c6c;
+  margin-top: 6px;
+}
+.main > .sec2 > .container > .left > .r-left > .count > div {
+  float: left;
+  line-height: 28px;
+}
+.main > .sec2 > .container > .left > .r-left > .count > div > span {
+  position: relative;
+  float: left;
+  font-size: 12px;
+}
+.main > .sec2 > .container > .left > .r-left > .count > div > span > a {
+  color: #ccc;
+  background-color: #ededed;
+  float: left;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #ccc;
+  line-height: 26px;
+  padding: 0;
+  vertical-align: top;
+  text-align: center;
+  overflow: hidden;
+}
+.main > .sec2 > .container > .left > .r-left > .count > div > span > .r {
+  margin-right: 5px;
+}
+.main > .sec2 > .container > .left > .r-left > .count > div > span > input {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 48px;
+  height: 28px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #666;
+  border: 1px solid #CCC;
+  outline: 0;
+  background: #FFF;
+}
+.main > .sec2 > .container > .left > .r-left > .count > div > div {
+  font-size: 12px;
+  float: left;
+}
+.main > .sec2 > .container > .left > .r-left > .count > div > div > span {
+  font-weight: inherit;
+}
+.main > .sec2 > .container > .left > .r-left > .huabai {
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+.main > .sec2 > .container > .left > .r-left > .huabai > span {
+  font-size: 12px;
+  display: inline;
+  float: left;
+  width: 60px;
+  color: #6c6c6c;
+}
+.main > .sec2 > .container > .left > .r-left > .huabai > ul {
+  float: left;
+  width: 400px;
+}
+.main > .sec2 > .container > .left > .r-left > .huabai > ul > li {
+  width: 409px;
+}
+.main > .sec2 > .container > .left > .r-left > .huabai > ul > .top {
+  margin-bottom: 10px;
+  color: #3C3C3C;
+  font-size: 12px;
+}
+.main > .sec2 > .container > .left > .r-left > .huabai > ul > .top > a {
+  border-bottom: 1px dashed;
+  color: #3C3C3C;
+}
+.main > .sec2 > .container > .left > .r-left > .huabai > ul > .buttom {
+  margin: 0 0 10px 0;
+}
+.main > .sec2 > .container > .left > .r-left > .huabai > ul > .buttom > div {
+  color: #D5D5D5;
+  border: 1px dotted #d6d6d8;
+  padding: 3px 8px;
+  text-align: center;
+  float: left;
+  margin: 0 5px 10px 0;
+  vertical-align: middle;
+  line-height: 20px;
+  background: #FFF;
+  font-size: 12px;
+}
+.main > .sec2 > .container > .left > .r-left > .buy {
+  padding: 10px;
+  margin-left: 18px;
+  margin-top: 194px;
+  height: 38px;
+}
+.main > .sec2 > .container > .left > .r-left > .buy > a {
+  margin-right: 9px;
+  float: left;
+  display: block;
+  width: 134px;
+  height: 38px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 38px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+}
+.main > .sec2 > .container > .left > .r-left > .buy > a:nth-of-type(1) {
+  color: #E5511D;
+  border-color: #F0CAB6;
+  background: #FFE4D0;
+}
+.main > .sec2 > .container > .left > .r-left > .buy > a:nth-of-type(1):hover {
+  background: #FFD9BC;
+}
+.main > .sec2 > .container > .left > .r-left > .buy > a:nth-of-type(2) {
+  width: 180px;
+  color: #FFF;
+  border-color: #F40;
+  background: #F40;
+}
+.main > .sec2 > .container > .left > .r-left > .buy > a:nth-of-type(2) > .icon {
+  font-size: 16px;
+}
+.main > .sec2 > .container > .left > .r-left > .buy > a:nth-of-type(2):hover {
+  background: #F22D00;
+}
+.main > .sec2 > .container > .left > .r-left > .pro,
+.main > .sec2 > .container > .left > .r-left > .pay {
+  margin-top: 12px;
+  padding: 10px;
+  margin-left: 18px;
+  margin-bottom: 20px;
+}
+.main > .sec2 > .container > .left > .r-left > .pro > span,
+.main > .sec2 > .container > .left > .r-left > .pay > span {
+  font-size: 12px;
+  display: inline;
+  float: left;
+  width: 60px;
+  color: #6c6c6c;
+}
+.main > .sec2 > .container > .left > .r-left > .pro > a,
+.main > .sec2 > .container > .left > .r-left > .pay > a {
+  display: block;
+  float: left;
+  font-size: 12px;
+  margin-right: 46px;
+  color: #6c6c6c;
+}
+.main > .sec2 > .container > .left > .r-left > .pro > a > img,
+.main > .sec2 > .container > .left > .r-left > .pay > a > img {
+  width: 16px;
+  height: 16px;
+}
+.main > .sec2 > .container > .right {
+  float: left;
+  width: 200px;
+  margin-left: -197px;
+  height: 600px;
+}
+.main > .sec2 > .container > .right > .top {
+  border: 1px solid #ffe2a3;
+  position: relative;
+  top: -1px;
+  left: -1px;
+}
+.main > .sec2 > .container > .right > .top > a {
+  color: #3C3C3C;
+  min-height: 45px;
+}
+.main > .sec2 > .container > .right > .top > a > span {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 93px;
+  font-size: 10px;
+  background: #e54e00;
+  color: #fff;
+  padding: 0 3px;
+  font-weight: 400;
+}
+.main > .sec2 > .container > .right > .top > a > img {
+  width: 198px;
+  height: 60px;
+}
+.main > .sec2 > .container > .right > .top > img {
+  position: absolute;
+  top: -11px;
+  right: 5px;
+  width: 48px;
+  height: 63px;
+}
+.main > .sec2 > .container > .right > .top > .laodian {
+  width: 198px;
+  height: 30px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #e26204;
+  text-align: center;
+  background: url(../img/bck1.png) no-repeat;
+}
+.main > .sec2 > .container > .right > .top > .laodian > img {
+  width: 16px;
+  height: 16px;
+}
+.main > .sec2 > .container > .right > .top > .laodian > span {
+  font-size: 14px;
+  line-height: 30px;
+  display: inline-block;
+  padding: 0 4px;
+  color: #f40;
+}
+.main > .sec2 > .container > .right > .top > .lianxi {
+  padding: 0 10px 17px 20px;
+  width: 168px;
+  color: #666;
+  background: #FFF;
+  cursor: pointer;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(1) > li {
+  margin-bottom: 5px;
+  height: 20px;
+  overflow: hidden;
+  color: #666;
+  font-size: 12px;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(1) > li:nth-of-type(1) {
+  font-weight: bold;
+  color: #3C3C3C;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(1) > li:nth-of-type(2) > img {
+  width: 16px;
+  height: 16px;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(1) > li:nth-of-type(4) > span {
+  display: inline-block;
+  width: 67px;
+  height: 20px;
+  position: relative;
+  background-image: url(../img/aliwangwang.gif);
+  background-repeat: no-repeat;
+  background-position: 0 1px;
+  background-size: 176%;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(1) > li:nth-of-type(5) {
+  margin-top: 10px;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(1) > li:nth-of-type(5) > span:nth-of-type(1) {
+  display: inline-block;
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/spript.png);
+  vertical-align: bottom;
+  background-repeat: no-repeat;
+  background-position: 0 -20px;
+  background-size: 400px;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(1) > li:nth-of-type(5) > span:nth-of-type(2) {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: bottom;
+  background-image: url(../img/spript.png);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: -280px -80px;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(1) > li:nth-of-type(5) > span:nth-of-type(3) {
+  border: 1px solid #00ba97;
+  color: #00ba97;
+  height: 14px;
+  line-height: 14px;
+  font-size: 12px;
+  margin-top: 2px;
+  display: inline;
+  margin-left: -4px;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(2) {
+  margin-bottom: 16px;
+  padding-top: 13px;
+  border-top: dotted 1px #E1E1E1;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(2) > li {
+  height: 31px;
+  border-right: 1px solid #eee;
+  padding-right: 14px;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(2) > li > p {
+  line-height: 12px;
+  font-size: 12px;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(2) > li > div {
+  line-height: 14px;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #F40 !important;
+  font-weight: 500;
+  background-position: right 4px;
+  background-image: url(../img/spript.png);
+  background-repeat: no-repeat;
+  background-size: 400px;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(2) > li:nth-of-type(3) {
+  border-right: none;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(3) {
+  display: flex;
+  justify-content: start;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(3) > li {
+  width: 74px;
+  height: 28px;
+  line-height: 22px;
+  border: 1px solid #EDEDED;
+  border-radius: 2px;
+  background: #FAFAFA;
+  text-align: center;
+  margin-right: 5px;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(3) > li:hover {
+  background-color: #f5f5f5;
+}
+.main > .sec2 > .container > .right > .top > .lianxi > ul:nth-of-type(3) > li > a {
+  color: #3C3C3C;
+  font-size: 12px;
+}
+.main > .sec2 > .container > .right > .bottom {
+  padding: 17px 12px 0 15px;
+  width: 172px;
+  margin-left: 1px;
+}
+.main > .sec2 > .container > .right > .bottom > p {
+  padding: 0 5px 11px;
+  height: 16px;
+  font-weight: 700;
+  color: #535353;
+  font-size: 12px;
+}
+.main > .sec2 > .container > .right > .bottom > p > img {
+  width: 16px;
+  height: 16px;
+  margin-left: 90px;
+}
+.main > .sec2 > .container > .right > .bottom > ul {
+  width: 198px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.main > .sec2 > .container > .right > .bottom > ul > li {
+  width: 80px;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.main > .sec2 > .container > .right > .bottom > ul > li > img {
+  width: 80px;
+  height: 80px;
+}
+.main > .sec2 > .container > .right > .bottom > ul > li > p {
+  line-height: 21px;
+  color: #ff4805;
+  text-align: center;
+  font-size: 12px;
+}
+.main > .sec3 {
+  width: 100%;
+}
+.main > .sec3 > .container {
+  width: 1140px;
+  display: flex;
+  justify-content: start;
+}
+.main > .sec3 > .container > .left {
+  width: 190px;
+}
+.main > .sec3 > .container > .left > .s1 {
+  width: 188px;
+  height: 44px;
+  border: 1px solid #E5E5E5;
+  background: #F4F4F4;
+  overflow: hidden;
+}
+.main > .sec3 > .container > .left > .s1 > div {
+  width: 165px;
+  height: 26px;
+  line-height: 26px;
+  vertical-align: middle;
+  margin: 9px auto;
+  overflow: hidden;
+}
+.main > .sec3 > .container > .left > .s1 > div > input {
+  float: left;
+  padding-left: 5px;
+  width: 136px;
+  height: 24px;
+  line-height: 24px;
+  vertical-align: middle;
+  border: 1px solid #C5C5C5;
+  background: #FFF;
+  border-right: none;
+}
+.main > .sec3 > .container > .left > .s1 > div > div {
+  float: right;
+  width: 28px;
+  height: 24px;
+  line-height: 26px;
+  vertical-align: middle;
+  overflow: hidden;
+  right: 0;
+  z-index: 9;
+  background: #F40;
+  text-align: center;
+}
+.main > .sec3 > .container > .left > .s1 > div > div > .icon {
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+.main > .sec3 > .container > .left > .s2 {
+  padding-bottom: 30px;
+}
+.main > .sec3 > .container > .left > .s2 > h3 {
+  padding-left: 10px;
+  width: 190px;
+  height: 25px;
+  background: #3F7FCE;
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+.main > .sec3 > .container > .left > .s2 > ul {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E4E4E4;
+  padding-left: 5px;
+}
+.main > .sec3 > .container > .left > .s2 > ul > li {
+  height: 20px;
+  margin-top: 15px;
+}
+.main > .sec3 > .container > .left > .s2 > ul > li > span {
+  margin-right: 7px;
+  height: 28px;
+  line-height: 22px;
+  display: inline-block;
+  font-size: 12px;
+  text-align: right;
+  width: 44px;
+}
+.main > .sec3 > .container > .left > .s2 > ul > li:nth-of-type(1) > input {
+  height: 20px;
+  width: 117px;
+  border: 1px solid #C5C5C5;
+}
+.main > .sec3 > .container > .left > .s2 > ul > li:nth-of-type(1) > input:focus {
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+.main > .sec3 > .container > .left > .s2 > ul > li:nth-of-type(2) > input {
+  line-height: 20px;
+  width: 53px !important;
+  height: 20px;
+  width: 117px;
+  border: 1px solid #C5C5C5;
+}
+.main > .sec3 > .container > .left > .s2 > ul > li:nth-of-type(2) > input:focus {
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+.main > .sec3 > .container > .left > .s2 > ul > li:nth-of-type(3) {
+  margin-bottom: 30px;
+  margin-left: 5px;
+}
+.main > .sec3 > .container > .left > .s2 > ul > li:nth-of-type(3) > button {
+  font-size: 12px;
+  width: 48px;
+  height: 24px;
+  line-height: 18px;
+  color: #fff;
+  margin-left: 51px;
+  text-align: center;
+  border-radius: 0;
+  background-color: #5d5d5d;
+}
+.main > .sec3 > .container > .left > .s3 {
+  border: 1px solid #E4E4E4;
+  margin-top: -5px;
+}
+.main > .sec3 > .container > .left > .s3 > h3 {
+  padding-left: 10px;
+  width: 190px;
+  height: 25px;
+  background: #3F7FCE;
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+.main > .sec3 > .container > .left > .s3 > ul {
+  height: 31px;
+  padding-left: 7px;
+  background: #EEE;
+  width: 181px;
+}
+.main > .sec3 > .container > .left > .s3 > ul > li {
+  float: left;
+  margin-left: 2px;
+  background: #EEE;
+  width: 45px;
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+  height: 26px;
+  margin-top: 5px;
+  line-height: 30px;
+}
+.main > .sec3 > .container > .left > .s3 > ul > .active {
+  background-color: #fff;
+}
+.main > .sec3 > .container > .left > .s3 > div {
+  padding-top: 13px;
+  display: none;
+}
+.main > .sec3 > .container > .left > .s3 > div > ul > li {
+  margin: 20px 10px;
+  height: 61px;
+}
+.main > .sec3 > .container > .left > .s3 > div > ul > li > img {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #cec9c6;
+}
+.main > .sec3 > .container > .left > .s3 > div > ul > li > img:hover {
+  transform: scale(1.5);
+}
+.main > .sec3 > .container > .left > .s3 > div > ul > li > div {
+  float: right;
+  width: 110px;
+  font-size: 12px;
+}
+.main > .sec3 > .container > .left > .s3 > div > ul > li > div > p:nth-of-type(1) {
+  height: 18px;
+  color: #000;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.main > .sec3 > .container > .left > .s3 > div > ul > li > div > p:nth-of-type(1):hover {
+  text-decoration: underline;
+}
+.main > .sec3 > .container > .left > .s3 > div > ul > li > div > p:nth-of-type(2) {
+  color: #FD490A;
+  height: 18px;
+}
+.main > .sec3 > .container > .left > .s3 > div > ul > li > div > p:nth-of-type(3) {
+  height: 18px;
+  color: #000;
+}
+.main > .sec3 > .container > .left > .s3 > div > ul > li > div > p:nth-of-type(3) > span {
+  color: #FD490A;
+}
+.main > .sec3 > .container > .left > .s3 > .display {
+  display: block;
+}
+.main > .sec3 > .container > .left > .s3 > a {
+  width: 190px;
+  display: inline-block;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #000;
+  font-size: 12px;
+}
+.main > .sec3 > .container > .left > .s3 > a:hover {
+  text-decoration: underline;
+}
+.main > .sec3 > .container > .left > .s4 {
+  margin-top: 20px;
+}
+.main > .sec3 > .container > .left > .s4 > h3 {
+  padding-left: 10px;
+  width: 190px;
+  height: 25px;
+  background: #3F7FCE;
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  padding-right: 10px;
+}
+.main > .sec3 > .container > .left > .s4 > h3 > a {
+  float: right;
+  color: #fff;
+}
+.main > .sec3 > .container > .left > .s4 > ul {
+  margin-top: 10px;
+  width: 180px;
+}
+.main > .sec3 > .container > .left > .s4 > ul > li {
+  width: 190px;
+  border: 1px solid #E4E4E4;
+  font-size: 12px;
+  padding-left: 3px;
+  padding-top: 3px;
+  padding-right: 3px;
+}
+.main > .sec3 > .container > .left > .s4 > ul > li > img {
+  width: 180px;
+  height: 180px;
+}
+.main > .sec3 > .container > .left > .s4 > ul > li > a {
+  width: 180px;
+  display: block;
+  margin: 10px 3px 15px;
+  line-height: 16px;
+  height: 32px;
+  overflow: hidden;
+  color: #36c;
+}
+.main > .sec3 > .container > .left > .s4 > ul > li > a:hover {
+  text-decoration: underline;
+}
+.main > .sec3 > .container > .left > .s4 > ul > li > p {
+  margin-bottom: 8px;
+  color: #f40;
+  font-weight: 700;
+}
+.main > .sec3 > .container > .left > .s4 > ul > li > p > span {
+  color: #999;
+  margin-right: 3px;
+}
+.main > .sec3 > .container > .right {
+  width: 949px;
+}
+.main > .sec3 > .container > .right > ul {
+  width: 949px;
+  height: 44px;
+  line-height: 44px;
+  border: 1px solid #E5E5E5;
+  background-color: #F6F6F6;
+  margin-left: -1px;
+}
+.main > .sec3 > .container > .right > ul > li {
+  cursor: pointer;
+  float: left;
+  color: #3C3C3C;
+  text-align: center;
+  line-height: 44px;
+  width: 131px;
+  padding: 0 10px;
+  font-size: 14px;
+  border-right: 1px solid #E5E5E5;
+}
+.main > .sec3 > .container > .right > ul > li:nth-of-type(2) > span {
+  color: #f40;
+}
+.main > .sec3 > .container > .right > ul > li:nth-of-type(4) {
+  width: 151px;
+  float: right;
+  margin-right: 190px;
+  border-right: none;
+  padding-right: 20px;
+  position: relative;
+}
+.main > .sec3 > .container > .right > ul > li:nth-of-type(4):hover {
+  background-color: #e5e5e5;
+}
+.main > .sec3 > .container > .right > ul > li:nth-of-type(4):hover div {
+  display: block;
+}
+.main > .sec3 > .container > .right > ul > li:nth-of-type(4) > img:nth-of-type(1) {
+  margin-left: 5px;
+  width: 13px;
+  height: 13px;
+}
+.main > .sec3 > .container > .right > ul > li:nth-of-type(4) > img:nth-of-type(2) {
+  margin-left: 10px;
+  width: 9px;
+  height: 5px;
+}
+.main > .sec3 > .container > .right > ul > li:nth-of-type(4) > div {
+  position: absolute;
+  left: 0;
+  width: 150px;
+  border: 1px solid #eee;
+  display: none;
+  z-index: 2;
+}
+.main > .sec3 > .container > .right > ul > li:nth-of-type(4) > div > img {
+  width: 149px;
+  height: 149px;
+}
+.main > .sec3 > .container > .right > ul > .active {
+  color: #f40;
+  border-top: 2px solid #f40;
+  background-color: #fff;
+}
+.main > .sec3 > .container > .right > .xq {
+  display: none;
+  width: 757px;
+  padding: 10px 5px 0 2px;
+  border: 1px solid #eee;
+}
+.main > .sec3 > .container > .right > .xq > .se1 {
+  border: 1px solid #32ad38;
+  padding: 15px;
+  height: 90px;
+  color: #333;
+  background-color: #fff;
+}
+.main > .sec3 > .container > .right > .xq > .se1 > .imgbox {
+  float: left;
+  width: 120px;
+  height: 90px;
+  border: 1px solid #f4f4f4;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.main > .sec3 > .container > .right > .xq > .se1 > .imgbox > img {
+  width: 120px;
+  height: 90px;
+}
+.main > .sec3 > .container > .right > .xq > .se1 > .text {
+  float: left;
+  height: 90px;
+  overflow: hidden;
+  width: 80%;
+  font-size: 12px;
+}
+.main > .sec3 > .container > .right > .xq > .se1 > .text > .brief {
+  font-weight: 700;
+}
+.main > .sec3 > .container > .right > .xq > .se1 > .text > .brief > strong {
+  color: #ff3c05;
+  font-weight: 700;
+}
+.main > .sec3 > .container > .right > .xq > .se1 > .text > .use {
+  line-height: 22px;
+}
+.main > .sec3 > .container > .right > .xq > .se1 > .text > .use > span {
+  float: left;
+  padding-bottom: 20px;
+}
+.main > .sec3 > .container > .right > .xq > .se1 > .text > .use > a {
+  color: #2d5a9f;
+  font-weight: 700;
+}
+.main > .sec3 > .container > .right > .xq > .se2 {
+  height: 165px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: solid 1px #eee;
+}
+.main > .sec3 > .container > .right > .xq > .se2 > ul {
+  padding: 0 15px;
+}
+.main > .sec3 > .container > .right > .xq > .se2 > ul > li {
+  font-size: 12px;
+  float: left;
+  width: 206px;
+  height: 24px;
+  margin-right: 20px;
+  overflow: hidden;
+  text-indent: 5px;
+  line-height: 24px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.main > .sec3 > .container > .right > .xq > .se3 {
+  margin-top: 30px;
+}
+.main > .sec3 > .container > .right > .xq > .se3 > img {
+  width: 750px;
+}
+.main > .sec3 > .container > .right > .pl {
+  color: #404040;
+  width: 757px;
+  padding: 10px 5px 0 2px;
+  display: none;
+}
+.main > .sec3 > .container > .right > .pl > .se1 {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 12px;
+  margin-bottom: 10px;
+  height: 39px;
+}
+.main > .sec3 > .container > .right > .pl > .se1 > p {
+  background-color: #FFF;
+  border: 1px solid #e5e5e5;
+  border-bottom: none;
+  margin: 0 0 0 -1px;
+  line-height: 40px;
+  width: 168px;
+  font-size: 14px;
+  padding: 0 20px;
+  text-align: center;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .top {
+  height: 24px;
+  padding: 10px;
+  border: #DDD 1px solid;
+  background: #FCFCFC;
+  color: #404040;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .top > ul {
+  float: left;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .top > ul > li {
+  font-size: 12px;
+  float: left;
+  line-height: 24px;
+  margin-right: 10px;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .top > ul > .active {
+  color: #f40;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .top > .px {
+  float: right;
+  height: 24px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  background-color: #F3F3F3;
+  position: relative;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .top > .px > p {
+  font-size: 12px;
+  line-height: 24px;
+  color: #404040;
+  margin-right: 10px;
+  width: 66px;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .top > .px > .icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 24px;
+  line-height: 24px;
+  font-size: 8px;
+  padding: 0 4px;
+  background-color: #F7F7F7;
+  border-left: 1px solid #CCC;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle {
+  color: #404040;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li {
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+  border-bottom: 1px solid #D4D4D4;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .imgbox {
+  width: 100px;
+  text-align: center;
+  line-height: 1.5;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .imgbox > img:nth-of-type(1) {
+  width: 40px;
+  height: 40px;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .imgbox > img:nth-of-type(2) {
+  height: 12px;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .imgbox > p {
+  font-size: 12px;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .content {
+  width: 630px;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .content > p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #3F3F3F;
+  word-wrap: break-word;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .content > .img {
+  margin-top: 10px;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .content > .img > img {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .content > .but {
+  font-size: 12px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .content > .but > div {
+  color: #B0B0B0;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .content > .but > div > span {
+  margin-right: 20px;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .content > .but > span {
+  color: #36C;
+  cursor: pointer;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .middle > li > .content > .but > span span {
+  color: #AAA;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .buttom {
+  background-color: #ffe;
+  border: 1px solid #fc7;
+  padding: 4px 8px;
+  color: #999;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.main > .sec3 > .container > .right > .pl > .se2 > .buttom > a {
+  color: #36c;
+}
+.main > .sec3 > .container > .right > .pl > .se3 > .price {
+  width: 750px;
+  padding-left: 20px;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.main > .sec3 > .container > .right > .pl > .se3 > .price > h3 {
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+}
+.main > .sec3 > .container > .right > .pl > .se3 > .price > .title {
+  color: #fe702f;
+}
+.main > .sec3 > .container > .right > .pl > .se3 > .price > .info {
+  color: #666;
+  margin-bottom: 15px;
+}
+.main > .sec3 > .container > .right > .pl > .se3 > .price > .info > strong {
+  color: #333;
+  font-weight: 600;
+}
+.main > .sec3 > .container > .right > .pl > .se3 > .remind {
+  width: 728px;
+  margin: 20px 0 20px 9px;
+  padding: 10px;
+  background: #FFFBF1;
+  border: 1px solid #FFC7B2;
+}
+.main > .sec3 > .container > .right > .pl > .se3 > .remind > dl {
+  width: 728px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  line-height: 2;
+  display: flex;
+  justify-content: flex-start;
+}
+.main > .sec3 > .container > .right > .pl > .se3 > .remind > dl > dt {
+  display: inline;
+  width: 140px;
+  font-weight: 700;
+}
+.main > .sec3 > .container > .right > .pl > .se3 > .remind > dl > dd {
+  width: 1300px;
+}
+.main > .sec3 > .container > .right > .pl > .se3 > .remind > dl > dd > p > em {
+  color: #f40;
+}
+.main > .sec3 > .container > .right > .fw {
+  display: none;
+  width: 757px;
+  padding: 10px 5px 0 2px;
+}
+.main > .sec3 > .container > .right > .fw > .sl1 {
+  padding: 0 10px;
+}
+.main > .sec3 > .container > .right > .fw > .sl1 > h2 {
+  font-size: 14px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  background: url(../img/fwbgc.png) repeat-x 0 4px;
+  margin: 20px 0 30px 0;
+}
+.main > .sec3 > .container > .right > .fw > .sl1 > h2 > em {
+  display: inline-block;
+  padding: 0 10px;
+  background-color: #fff;
+  color: #3c3c3c;
+}
+.main > .sec3 > .container > .right > .fw > .sl1 > div {
+  margin: 0 20px;
+  margin-bottom: 40px;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+}
+.main > .sec3 > .container > .right > .fw > .sl1 > div > .imgbox {
+  width: 48px;
+  height: 48px;
+}
+.main > .sec3 > .container > .right > .fw > .sl1 > div > .content {
+  margin-left: 10px;
+}
+.main > .sec3 > .container > .right > .fw > .sl1 > div > .content > h3 {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #3c3c3c;
+}
+.main > .sec3 > .container > .right > .fw > .sl1 > div > .content > p {
+  line-height: 24px;
+  word-wrap: break-word;
+  color: #6c6c6c;
+}
+.main > .sec3 > .container > .right > .fw > .sl2 > .price {
+  width: 750px;
+  padding-left: 20px;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.main > .sec3 > .container > .right > .fw > .sl2 > .price > h3 {
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+}
+.main > .sec3 > .container > .right > .fw > .sl2 > .price > .title {
+  color: #fe702f;
+}
+.main > .sec3 > .container > .right > .fw > .sl2 > .price > .info {
+  color: #666;
+  margin-bottom: 15px;
+}
+.main > .sec3 > .container > .right > .fw > .sl2 > .price > .info > strong {
+  color: #333;
+  font-weight: 600;
+}
+.main > .sec3 > .container > .right > .fw > .sl2 > .remind {
+  width: 728px;
+  margin: 20px 0 20px 9px;
+  padding: 10px;
+  background: #FFFBF1;
+  border: 1px solid #FFC7B2;
+}
+.main > .sec3 > .container > .right > .fw > .sl2 > .remind > dl {
+  width: 728px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  line-height: 2;
+  display: flex;
+  justify-content: flex-start;
+}
+.main > .sec3 > .container > .right > .fw > .sl2 > .remind > dl > dt {
+  display: inline;
+  width: 140px;
+  font-weight: 700;
+}
+.main > .sec3 > .container > .right > .fw > .sl2 > .remind > dl > dd {
+  width: 1300px;
+}
+.main > .sec3 > .container > .right > .fw > .sl2 > .remind > dl > dd > p > em {
+  color: #f40;
+}
+.main > .sec3 > .container > .right > .display {
+  display: block;
+}
+.main .sec4 {
+  padding: 10px 0;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  padding: 0 22px;
+  vertical-align: middle;
+  margin: 20px 0;
+}
+.footer {
+  width: 100%;
+  min-height: 150px;
+  margin-top: 20px;
+  padding-bottom: 9px;
+  background-color: #fff;
+  font-size: 12px;
+}
+.footer > .container > .top {
+  padding-top: 7px;
+}
+.footer > .container > .top > p {
+  margin-bottom: 8px;
+  line-height: 27px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+.footer > .container > .top > p > span {
+  margin: 0 1px;
+  color: #9c9c9c;
+}
+.footer > .container > .top > p > span > a {
+  white-space: nowrap;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.footer > .container > .top > p > span > a:hover {
+  color: #f40;
+}
+.footer > .container > .top > p > b {
+  margin: 0 3px;
+  font-weight: 400;
+  color: #ddd;
+}
+.footer > .container > .middle > .gytb {
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+.footer > .container > .middle > .gytb > span {
+  margin: 0 4px;
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .gytb > span > a {
+  white-space: nowrap;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.footer > .container > .middle > .gytb > span > a:hover {
+  color: #f40;
+}
+.footer > .container > .middle > .gytb > span > span {
+  margin-left: 30px;
+  font-style: normal;
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .zz {
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+.footer > .container > .middle > .zz > span {
+  margin: 0 4px;
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .zz > span > a {
+  white-space: nowrap;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.footer > .container > .middle > .zz > span > a:hover {
+  color: #f40;
+}
+.footer > .container > .middle > .zz > b {
+  margin: 0 3px;
+  font-weight: 400;
+  color: #ddd;
+}
+.footer > .container > .middle > .zz > span:nth-of-type(4) {
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .hlw {
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+.footer > .container > .middle > .hlw > span {
+  color: #9c9c9c;
+  margin: 0 4px;
+}
+.footer > .container > .middle > .hlw > b {
+  margin: 0 -1px;
+  font-weight: 400;
+  color: #ddd;
+}
+.footer > .container > .middle > .zs {
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+.footer > .container > .middle > .zs > span {
+  margin: 0 4px;
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .zs > span > a {
+  white-space: nowrap;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.footer > .container > .middle > .zs > span > a:hover {
+  color: #f40;
+}
+.footer > .container > .middle > .zs > span > a > span {
+  display: inline-block;
+  background-position: -861px 0px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/jlt.jpg);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.footer > .container > .middle > .zs > b {
+  margin: 0 -1px;
+  font-weight: 400;
+  color: #ddd;
 }
