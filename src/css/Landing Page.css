@@ -325,10 +325,54 @@ header > .container .bg:hover {
   margin-bottom: 15px;
   width: 400px;
   height: 400px;
+  display: none;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .top > .small {
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .top > .small > img {
+  width: 300px;
+  height: 400px;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .top > .small > .movebox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: orange;
+  opacity: 0.2;
+  cursor: move;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .top > .big {
+  z-index: 20;
+  position: absolute;
+  top: -400px;
+  left: 400px;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  border: 1px solid #ccc;
+  position: relative;
   overflow: hidden;
 }
-.main > .sec2 > .container > .left > .l-left > .show > .top > img {
-  height: 400px;
+.main > .sec2 > .container > .left > .l-left > .show > .top > .big > img {
+  width: 801px;
+  height: 1068px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .top .hide {
+  display: none;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .top .show {
+  display: block;
+}
+.main > .sec2 > .container > .left > .l-left > .show > .display {
+  display: block;
 }
 .main > .sec2 > .container > .left > .l-left > .show > .middle > li {
   float: left;
@@ -594,6 +638,13 @@ header > .container .bg:hover {
   border: 1px solid #bbb;
   text-align: center;
   font-size: 12px;
+  cursor: pointer;
+}
+.main > .sec2 > .container > .left > .r-left > .size > ul > li:hover {
+  border: 2px solid #f40;
+}
+.main > .sec2 > .container > .left > .r-left > .size > ul > .active {
+  border: 2px solid #f40;
 }
 .main > .sec2 > .container > .left > .r-left > .color {
   margin-top: 20px;
@@ -624,6 +675,12 @@ header > .container .bg:hover {
   width: 30px;
   height: 30px;
   margin-top: 3px;
+}
+.main > .sec2 > .container > .left > .r-left > .color > ul > li:hover {
+  border-color: #f40;
+}
+.main > .sec2 > .container > .left > .r-left > .color > ul > .active {
+  border: 2px solid #f40;
 }
 .main > .sec2 > .container > .left > .r-left > .count {
   padding: 10px;

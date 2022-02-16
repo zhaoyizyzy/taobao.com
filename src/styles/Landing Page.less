@@ -343,10 +343,56 @@ header{
                             margin-bottom: 15px;
                             width: 400px;
                             height: 400px;
-                            overflow: hidden;
-                            >img{
+                            display: none;
+                            >.small{
+                                width: 300px;
                                 height: 400px;
+                                overflow: hidden;
+                                position: relative;
+                                margin: 0 auto;
+                                >img{
+                                    width: 300px;
+                                    height: 400px;
+                                }
+                                >.movebox{
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    background-color: orange;
+                                    opacity: .2;
+                                    cursor: move;
+                                }
                             }
+                           
+                            
+                            >.big{
+                                z-index: 20;
+                                position: absolute;
+                                top: -400px;
+                                left: 400px;
+                                width: 400px;
+                                height: 400px;
+                                text-align: center;
+                                border: 1px solid #ccc;
+                                position: relative;
+                                overflow: hidden;
+                                >img{
+                                    width: 801px;
+                                    height: 1068px;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                }
+                            }
+                            & .hide{
+                                display: none;
+                            }
+                            & .show{
+                                display: block;
+                            }
+                        }
+                        >.display{
+                            display: block;
                         }
                         >.middle{
                             >li{
@@ -615,6 +661,13 @@ header{
                                 border: 1px solid #bbb;
                                 text-align: center;
                                 font-size: 12px;
+                                cursor: pointer;
+                                &:hover{
+                                border: 2px solid #f40;
+                                }
+                            }
+                            >.active{
+                                border: 2px solid #f40;
                             }
                         }
                     }
@@ -645,6 +698,12 @@ header{
                                     height: 30px;
                                     margin-top: 3px;
                                 }
+                                &:hover{
+                                    border-color: #f40;
+                                }
+                            }
+                            >.active{
+                                border: 2px solid #f40;
                             }
                         }
                     }

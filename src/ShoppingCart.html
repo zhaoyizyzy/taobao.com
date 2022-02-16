@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>淘宝网 - 我的购物车</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/ShoppingCart.css">
+    <script src="http://at.alicdn.com/t/font_3164302_f8j724p50j8.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/ShoppingCart.js"></script>
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- head -->
+    <header>
+        <div class="container">
+            <ul class="top-nav-l">
+                <li><a href="./login.html" class="login">亲，请登录</a>
+                    <a href="./register.html">免费注册</a>
+                </li>
+                <li><a href="">手机逛淘宝</a></li>
+                <li><a href="">网页无障碍</a></li>
+            </ul>
+            <ul class="top-nav-r">
+                <li><a href="./index.html">淘宝网首页</a></li>
+                <li class="bg"><a href="">我的淘宝</a>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-xiangxia"></use>
+                    </svg>
+                </li>
+                <li><a href="">
+                        <svg class="icon gwc" aria-hidden="true">
+                            <use xlink:href="#icon-gouwuche"></use>
+                        </svg>购物车</a></li>
+                <li class="bg"><a href="">
+                        <svg class="icon scj" aria-hidden="true">
+                            <use xlink:href="#icon-shoucangjia"></use>
+                        </svg>收藏夹</a>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-xiangxia"></use>
+                    </svg>
+                </li>
+                <li><a href="" class="fl">商品分类</a>
+                    <a href="">免费开店</a>
+                </li>
+                <li><span>|</span></li>
+                <li class="bg"><a href="">千牛卖家中心</a>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-xiangxia"></use>
+                    </svg>
+                </li>
+                <li class="bg"><a href="">联系客服</a>
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-xiangxia"></use>
+                    </svg>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- main -->
+    <div class="main">
+        <div class="container">
+            <!-- sec1 -->
+            <div class="sec1">
+                <h1>
+                    <a href="./index.html"></a>
+                </h1>
+                <div class="search">
+                    <div class="left">
+                        <ul>
+                            <li class="bb">宝贝
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-xiangxia"></use>
+                                </svg>
+                            </li>
+                            <li>天猫</li>
+                            <li>店铺</li>
+                        </ul>
+                        <svg class="icon fdj" aria-hidden="true">
+                            <use xlink:href="#icon-fangdajing"></use>
+                        </svg>
+                        <input type="text" id="sear">
+                    </div>
+                    <button type="submit">搜索</button>
+                </div>
+            </div>
+            <!-- sec2 -->
+            <div class="sec2">
+                <ul>
+                    <li class="active">
+                        <a href="javascript:;">
+                            全部商品
+                            <span>2</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            降价商品
+                            <span>0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            库存紧张
+                            <span>1</span>
+                        </a>
+                    </li>
+                    <div class="cart-sum">
+                        已选商品（不含运费）
+                        <span>0.00</span>
+                        <a href="">结&nbsp;算</a>
+                    </div>
+                </ul>
+                <div class="cartmain">
+                    <div class="check">
+                        <div class="left">
+                            <input type="checkbox" class="allcheck">
+                            全选
+                            <span>商品信息</span>
+                        </div>
+                        <div class="right">
+                            <span>单价</span>
+                            <span>数量</span>
+                            <span>金额</span>
+                            <span>操作</span>
+                        </div>
+                    </div>
+                    <ul class="info">
+                        <li>
+                            <div class="top">
+                                <input type="checkbox">
+                                <span></span>
+                                店铺：
+                                <a href="">静静的小店</a>
+                                <span></span>
+                            </div>
+                            <div class="buttom">
+                                <div>
+                                    <input type="checkbox">
+                                </div>
+                                <div>
+                                    <div class="imgbox">
+                                        <a href="">
+                                            <img src="./img/cart1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <a href="">
+                                            Apple/苹果 MacBook Pro MA611CH/A M1 MAX芯片高配置 现货三年保
+                                        </a>
+                                        <div>
+                                            <img src="./img/tb1.png" alt="">
+                                            <img src="./img/tb2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>硬盘容量：8TB 固态硬盘</p>
+                                    <p>颜色分类：灰色</p>
+                                    <p>内存容量：64GB</p>
+                                    <span class="xiugai">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-xiugai"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="xg">修改</span>
+                                </div>
+                                <div>
+                                    <p>￥42300.00</p>
+                                </div>
+                                <div>
+                                    <div class="count">
+                                        <a href="">-</a>
+                                        <input type="text" value="1">
+                                        <a href="">+</a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>￥42300.00</p>
+                                </div>
+                                <div>
+                                   <a href=""> 移入收藏夹</a>
+                                   <a href=""> 删除</a>
+                                   <a href="" class="like"> 相似宝贝</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="top">
+                                <input type="checkbox">
+                                <span></span>
+                                店铺：
+                                <a href="">zy的小店</a>
+                                <span></span>
+                            </div>
+                            <div class="buttom">
+                                <div>
+                                    <input type="checkbox">
+                                </div>
+                                <div>
+                                    <div class="imgbox">
+                                        <a href="">
+                                            <img src="./img/cart2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <a href="">
+                                            2021新品Apple/苹果 iPhone 13 Pro Max苹果13Pro Max手机6.7英寸
+                                        </a>
+                                        <div>
+                                            <img src="./img/tb1.png" alt="">
+                                            <img src="./img/tb2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>硬盘容量：8TB 固态硬盘</p>
+                                    <p>颜色分类：灰色</p>
+                                    <p>内存容量：64GB</p>
+                                    <span class="xiugai">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-xiugai"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="xg">修改</span>
+                                </div>
+                                <div>
+                                    <p>￥42300.00</p>
+                                </div>
+                                <div>
+                                    <div class="count">
+                                        <a href="">-</a>
+                                        <input type="text" value="1">
+                                        <a href="">+</a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p>￥42300.00</p>
+                                </div>
+                                <div>
+                                   <a href=""> 移入收藏夹</a>
+                                   <a href=""> 删除</a>
+                                   <a href="" class="like"> 相似宝贝</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="pay">
+                        <div class="left">
+                            <input type="checkbox" class="allcheck">
+                            <span>全选</span>
+                            <span>删除</span>
+                            <span>移入收藏夹</span>
+                        </div>
+                        <div class="right">
+                            <div>
+                                已选商品
+                                <span>0</span>
+                                件
+                            </div>
+                            <div>合计（不含运费）：
+                                <span>0.00</span>
+                            </div>
+                            <div>
+                                <a href="">结 算</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="top">
+                <p>
+                    <span><a href="">阿里巴巴集团</a></span>
+                    <b>|</b>
+                    <span><a href="">淘宝网</a></span>
+                    <b>|</b>
+                    <span><a href="">天猫</a></span>
+                    <b>|</b>
+                    <span><a href="">聚划算</a></span>
+                    <b>|</b>
+                    <span><a href="">全球速卖通</a></span>
+                    <b>|</b>
+                    <span><a href="">阿里巴巴国际交易市场</a></span>
+                    <b>|</b>
+                    <span><a href="">1688</a></span>
+                    <b>|</b>
+                    <span><a href="">阿里妈妈</a></span>
+                    <b>|</b>
+                    <span><a href="">飞猪</a></span>
+                    <b>|</b>
+                    <span><a href="">淘小铺</a></span>
+                    <b>|</b>
+                    <span><a href="">阿里云计算</a></span>
+                    <b>|</b>
+                    <span><a href="">AliOS</a></span>
+                    <b>|</b>
+                    <span><a href="">阿里通信</a></span>
+                    <b>|</b>
+                    <span><a href="">一淘</a></span>
+                    <b>|</b>
+                    <span><a href="">万网</a></span>
+                    <b>|</b>
+                    <span><a href="">高德</a></span>
+                    <b>|</b>
+                    <span><a href="">UC</a></span>
+                    <b>|</b>
+                    <span><a href="">友盟</a></span>
+                    <b>|</b>
+                    <span><a href="">阿里安全</a></span>
+                    <b>|</b>
+                    <span><a href="">大麦网</a></span>
+                    <b>|</b>
+                    <span><a href="">钉钉</a></span>
+                    <b>|</b>
+                    <span><a href="">支付宝</a></span>
+                    <b>|</b>
+                    <span><a href="">优酷</a></span>
+                    <b>|</b>
+                    <span><a href="">土豆</a></span>
+                    <b>|</b>
+                    <span><a href="">阿里健康</a></span>
+                    <b>|</b>
+                    <span><a href="">阿里影业</a></span>
+                    <b>|</b>
+                    <span><a href="">网商银行</a></span>
+                    <b>|</b>
+                </p>
+            </div>
+            <div class="middle">
+                <p class="gytb">
+                    <span>
+                        <a href="">关于淘宝</a>
+                        <a href="">营销中心</a>
+                        <a href="">廉政举报</a>
+                        <a href="">联系客服</a>
+                        <a href="">开放平台</a>
+                        <a href="">诚征英才</a>
+                        <a href="">联系我们</a>
+                        <a href="">隐私权政策</a>
+                        <a href="">法律声明</a>
+                        <a href="">知识产权</a>
+                        <a href="">不当竞争举报</a>
+                        <a href="">规则意见征集</a>
+                        <b>|</b>
+                        <span>
+                            © 2003-现在&nbsp;Taobao.com 版权所有
+                        </span>
+                    </span>
+                </p>
+                <p class="zz">
+                    <span>
+                        <a href="">增值电信业务经营许可证：浙B2-20080224</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="">增值电信业务经营许可证（跨地区）： B2-20150210</a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="">浙网文（2019）1033-086号</a>
+                    </span>
+                    <b>|</b>
+                    <span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010001</span>
+                    <b>|</b>
+                </p>
+                <p class="hlw">
+                    <span>互联网药品信息服务资格证书（浙）-经营性-2018-0010</span>
+                    <b>|</b>
+                    <span>短消息类服务接入代码使用证书：号【2016】00154-A01</span>
+                    <b>|</b>
+                    <span>信息网络传播视听许可证：1109364号</span>
+                    <b>|</b>
+                    <span>出版物网络交易平台服务经营备案号：新出发浙备字第002号</span>
+                    <b>|</b>
+                </p>
+                <p class="zs">
+                    <span>
+                        <a href="">
+                            <span></span>
+                            浙公网安备 33010002000078号
+                        </a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        <a href="">
+                            浙B2-20080224-1
+                        </a>
+                    </span>
+                    <b>|</b>
+                    <span>
+                        广播电视节目制作经营许可证（浙）字第01012号
+                    </span>
+                    <b>|</b>
+                    <span>
+                        市场名称登记证：工商网市字3301004120号
+                    </span>
+                    <b>|</b>
+                    <span>
+                        医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00004号
+                    </span>
+                    <b>|</b>
+                </p>
+            </div>
+            <div class="bottom">
+                <span>
+                    <a href=""></a>
+                </span>
+                <span>
+                    <a href=""></a>
+                </span>
+                <span>
+                    <a href=""></a>
+                </span>
+                <span>
+                    <a href=""></a>
+                </span>
+                <span>
+                    <a href=""></a>
+                </span>
+                <span>
+                    <a href=""></a>
+                </span>
+                <span>
+                    <a href=""></a>
+                </span>
+                <span>
+                    <a href=""></a>
+                </span>
+                <span>
+                    <a href=""></a>
+                </span>
+                <span>
+                    <a href=""></a>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

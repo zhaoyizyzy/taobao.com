@@ -1,0 +1,713 @@
+@charset 'utf-8';
+body {
+  font-family: tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+}
+header {
+  width: 100%;
+  height: 35px;
+  background-color: #f5f5f5;
+}
+header > .container {
+  font-size: 12px;
+  height: 35px;
+}
+header > .container > .top-nav-l {
+  float: left;
+}
+header > .container > .top-nav-l > li {
+  float: left;
+  margin-right: 7px;
+  height: 35px;
+  position: relative;
+}
+header > .container > .top-nav-l > li > a {
+  color: #6C6C6C;
+  padding: 0 6px;
+  line-height: 35px;
+}
+header > .container > .top-nav-l > li > a:hover {
+  color: #f40;
+}
+header > .container > .top-nav-l > li > .login {
+  color: #f40;
+}
+header > .container > .top-nav-l li:nth-of-type(1) .icon {
+  display: inline-block;
+  font-size: 6px;
+  width: 7px;
+  height: 12px;
+}
+header > .container > .top-nav-l li:nth-of-type(2) .login {
+  margin-right: -7px;
+}
+header > .container > .top-nav-r {
+  float: right;
+}
+header > .container > .top-nav-r > li {
+  float: left;
+  margin-right: 7px;
+  height: 35px;
+  position: relative;
+}
+header > .container > .top-nav-r > li > a {
+  color: #6C6C6C;
+  padding: 0 6px;
+  line-height: 35px;
+}
+header > .container > .top-nav-r > li > a:hover {
+  color: #f40;
+}
+header > .container > .top-nav-r > li > .fl {
+  padding-right: 0;
+}
+header > .container > .top-nav-r > li > .icon {
+  display: inline-block;
+  font-size: 6px;
+  width: 7px;
+  height: 12px;
+}
+header > .container > .top-nav-r > li .gwc,
+header > .container > .top-nav-r > li .scj {
+  display: inline-block;
+  margin-right: 5px;
+}
+header > .container > .top-nav-r > li > span {
+  color: #ddd;
+  line-height: 35px;
+}
+header > .container .bg:hover {
+  background: #fff;
+}
+.main > .container {
+  margin: 0 auto;
+}
+.main > .container > .sec1 {
+  padding: 20px 0 40px;
+  position: relative;
+  height: 35px;
+}
+.main > .container > .sec1 > h1 {
+  float: left;
+  font-size: 100%;
+}
+.main > .container > .sec1 > h1 > a {
+  background: url(../img/shoppinglogo.png) no-repeat 0 0/100% 100%;
+  width: 181px;
+  height: 45px;
+  font-size: 35px;
+  line-height: 35px;
+  color: #f50;
+  position: relative;
+  display: inline-block;
+}
+.main > .container > .sec1 > .search {
+  float: right;
+  width: 515px;
+  height: 35px;
+  position: relative;
+  background: #f50;
+}
+.main > .container > .sec1 > .search > button {
+  height: 35px;
+  width: 93px;
+  background-color: #f50;
+  font-size: 18px;
+  line-height: 35px;
+  color: #fff;
+  float: right;
+  border: none;
+  text-align: center;
+  letter-spacing: 8px;
+}
+.main > .container > .sec1 > .search > .left {
+  float: left;
+  width: 422px;
+  height: 29px;
+  background-color: #fff;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.main > .container > .sec1 > .search > .left > ul {
+  font-size: 12px;
+  width: 74px;
+  height: 29px;
+  z-index: 1;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+.main > .container > .sec1 > .search > .left > ul > li {
+  height: 29px;
+  line-height: 29px;
+  text-align: center;
+  font-weight: 400;
+  color: #6b6b6b;
+  background: #f5f5f5;
+}
+.main > .container > .sec1 > .search > .left > ul > li > .icon {
+  margin-left: 12px;
+  font-size: 11px;
+}
+.main > .container > .sec1 > .search > .left > .fdj {
+  position: absolute;
+  left: 80px;
+  top: 10px;
+  font-size: 12px;
+  z-index: 2;
+}
+.main > .container > .sec1 > .search > .left input {
+  font-size: 14px;
+  width: 343px;
+  height: 29px;
+  text-indent: 10px;
+  position: absolute;
+  left: 74px;
+  top: 0;
+}
+.main > .container > .sec2 {
+  min-height: 400px;
+}
+.main > .container > .sec2 > ul {
+  height: 35px;
+  width: 100%;
+  border-bottom: 2px #e6e6e6 solid;
+}
+.main > .container > .sec2 > ul > li {
+  height: 35px;
+  float: left;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.1;
+  font-family: 'Hiragino Sans GB', 'Lantinghei SC', 'Microsoft Yahei', SimSun;
+  text-align: center;
+  cursor: pointer;
+  margin-left: -1px;
+}
+.main > .container > .sec2 > ul > li > a {
+  margin-left: 20px;
+  color: #3c3c3c;
+  display: block;
+  border-right: 1px solid #ccc;
+}
+.main > .container > .sec2 > ul > li > a > span {
+  color: #f40;
+  font-size: 14px;
+  margin: 0 30px 0 5px;
+  font-weight: 400;
+}
+.main > .container > .sec2 > ul > li:nth-of-type(3) > a {
+  border-right: none;
+}
+.main > .container > .sec2 > ul > .active {
+  border-bottom: 2px #f40 solid;
+}
+.main > .container > .sec2 > ul > .active > a {
+  color: #f40;
+}
+.main > .container > .sec2 > ul > .cart-sum {
+  height: 25px;
+  line-height: 25px;
+  float: right;
+  font-size: 12px;
+}
+.main > .container > .sec2 > ul > .cart-sum > span {
+  font-weight: 700;
+  margin-right: 5px;
+  color: #f40;
+}
+.main > .container > .sec2 > ul > .cart-sum > a {
+  display: inline-block;
+  background: #aaa;
+  color: #fff;
+  cursor: not-allowed;
+  width: 55px;
+  border-radius: 2px;
+  text-align: center;
+}
+.main > .container > .sec2 > .cartmain {
+  font-size: 12px;
+  min-height: 210px;
+}
+.main > .container > .sec2 > .cartmain > .check {
+  line-height: 50px;
+  width: 100%;
+  height: 50px;
+  color: #3c3c3c;
+  display: flex;
+  justify-content: space-between;
+}
+.main > .container > .sec2 > .cartmain > .check > .left > input {
+  margin: 0 5px 0 15px;
+  vertical-align: middle;
+}
+.main > .container > .sec2 > .cartmain > .check > .left > span {
+  margin-left: 90px;
+}
+.main > .container > .sec2 > .cartmain > .check > .right {
+  text-align: left;
+}
+.main > .container > .sec2 > .cartmain > .check > .right > span {
+  display: inline-block;
+}
+.main > .container > .sec2 > .cartmain > .check > .right > span:nth-of-type(1) {
+  width: 130px;
+}
+.main > .container > .sec2 > .cartmain > .check > .right > span:nth-of-type(2) {
+  width: 120px;
+}
+.main > .container > .sec2 > .cartmain > .check > .right > span:nth-of-type(3) {
+  width: 140px;
+}
+.main > .container > .sec2 > .cartmain > .check > .right > span:nth-of-type(4) {
+  width: 149px;
+}
+.main > .container > .sec2 > .cartmain > .info {
+  width: 100%;
+  font-size: 12px;
+}
+.main > .container > .sec2 > .cartmain > .info > li {
+  margin-bottom: 15px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .top {
+  height: 38px;
+  background: #fff;
+  line-height: 38px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .top > input {
+  vertical-align: middle;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .top > span:nth-of-type(1) {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: -3px 6px 0 5px;
+  background: url(../img/infosprict.png) no-repeat;
+  background-position: -20px -165px;
+  background-size: 400px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .top > span:nth-of-type(2) {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: -3px 6px 0 5px;
+  background: url(../img/aliwangwang.gif) no-repeat;
+  background-position: -75px 0px;
+  background-size: 120px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .top > a {
+  color: #3c3c3c;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .top > a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom {
+  padding: 20px 0;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(1) {
+  width: 50px;
+  margin-right: 5px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(1) > input {
+  vertical-align: middle;
+  margin-left: 40px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(2) {
+  width: 342px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(2) > .imgbox {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #eee;
+  float: left;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(2) > .imgbox > a {
+  display: table-cell;
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+  text-align: center;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(2) > .imgbox > a > img {
+  max-height: 80px;
+  max-width: 80px;
+  vertical-align: middle;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(2) > .content {
+  margin-left: 92px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(2) > .content > a {
+  width: 226px;
+  font-size: 12px;
+  display: block;
+  max-height: 36px;
+  overflow: hidden;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(2) > .content > a:hover {
+  color: #f50;
+  text-decoration: underline;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(2) > .content > div {
+  margin-top: 35px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(2) > .content > div > img {
+  width: 14px;
+  height: 16px;
+  cursor: pointer;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(3) {
+  width: 212px;
+  margin: -20px 0 0px;
+  padding-top: 20px;
+  position: relative;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(3):hover {
+  border: 1px dashed #f40 !important;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(3) > p {
+  margin: 0 5px 0 15px;
+  color: #9c9c9c;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(3) > .xiugai {
+  width: 20px;
+  height: 20px;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  line-height: 20px;
+  background-color: #cad1d8;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(3) > .xiugai > .icon {
+  font-size: 15px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(3) > .xg {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  color: #eee;
+  line-height: 20px;
+  background-color: #f50;
+  cursor: pointer;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(3):hover .xg {
+  display: block;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(3):hover .xiugai {
+  display: none;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom:hover div .xiugai {
+  display: block;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom:hover div:nth-of-type(3) {
+  border: 1px dashed #8f8c8c;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(4) {
+  width: 130px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(4) > p {
+  color: #3c3c3c;
+  font-weight: 700;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(5) {
+  width: 150px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(5) > .count {
+  height: 25px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(5) > .count > a {
+  display: block;
+  float: left;
+  height: 23px;
+  width: 17px;
+  border: 1px solid #e5e5e5;
+  background: #f0f0f0;
+  text-align: center;
+  line-height: 23px;
+  color: #000;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(5) > .count > input {
+  float: left;
+  width: 39px;
+  height: 25px;
+  line-height: 15px;
+  border: 1px solid #aaa;
+  color: #343434;
+  text-align: center;
+  padding: 4px 0;
+  background-color: #fff;
+  z-index: 2;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(6) {
+  width: 140px;
+  color: #f40;
+  font-weight: 700;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(7) {
+  width: 160px;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(7) > a {
+  display: block;
+  color: #3c3c3c;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(7) > a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom > div:nth-of-type(7) > .like {
+  display: none;
+}
+.main > .container > .sec2 > .cartmain > .info > li > .buttom:hover div .like {
+  display: block;
+}
+.main > .container > .sec2 > .cartmain > .info > li:nth-of-type(2) > .top > span:nth-of-type(1) {
+  background-position: -20px -125px;
+}
+.main > .container > .sec2 > .cartmain > .pay {
+  height: 50px;
+  background: #e5e5e5;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.main > .container > .sec2 > .cartmain > .pay > .left {
+  line-height: 50px;
+  padding-left: 5px;
+}
+.main > .container > .sec2 > .cartmain > .pay > .left > span {
+  margin-right: 25px;
+}
+.main > .container > .sec2 > .cartmain > .pay > .right {
+  color: #3C3C3C;
+  display: flex;
+  justify-content: space-between;
+}
+.main > .container > .sec2 > .cartmain > .pay > .right > div {
+  color: #3c3c3c;
+  line-height: 48px;
+}
+.main > .container > .sec2 > .cartmain > .pay > .right > div:nth-of-type(1) {
+  width: 101px;
+  cursor: pointer;
+}
+.main > .container > .sec2 > .cartmain > .pay > .right > div:nth-of-type(1) > span {
+  color: #f40;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: tohoma,arial;
+}
+.main > .container > .sec2 > .cartmain > .pay > .right > div:nth-of-type(2) {
+  width: 161px;
+}
+.main > .container > .sec2 > .cartmain > .pay > .right > div:nth-of-type(2) > span {
+  color: #f40;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: tohoma,arial;
+}
+.main > .container > .sec2 > .cartmain > .pay > .right > div:nth-of-type(3) {
+  width: 120px;
+}
+.main > .container > .sec2 > .cartmain > .pay > .right > div:nth-of-type(3) > a {
+  text-align: center;
+  display: inline-block;
+  width: 120px;
+  background: #B0B0B0;
+  color: #fff;
+  border-left: 1px solid #e7e7e7;
+  width: 119px;
+  cursor: not-allowed;
+  font-size: 20px;
+}
+.footer {
+  width: 100%;
+  min-height: 150px;
+  margin-top: 20px;
+  padding-bottom: 9px;
+  background-color: #fff;
+  font-size: 12px;
+}
+.footer > .container > .top {
+  padding-top: 7px;
+}
+.footer > .container > .top > p {
+  margin-bottom: 8px;
+  line-height: 27px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+.footer > .container > .top > p > span {
+  margin: 0 1px;
+  color: #9c9c9c;
+}
+.footer > .container > .top > p > span > a {
+  white-space: nowrap;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.footer > .container > .top > p > span > a:hover {
+  color: #f40;
+}
+.footer > .container > .top > p > b {
+  margin: 0 3px;
+  font-weight: 400;
+  color: #ddd;
+}
+.footer > .container > .middle > .gytb {
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+.footer > .container > .middle > .gytb > span {
+  margin: 0 4px;
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .gytb > span > a {
+  white-space: nowrap;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.footer > .container > .middle > .gytb > span > a:hover {
+  color: #f40;
+}
+.footer > .container > .middle > .gytb > span > span {
+  margin-left: 30px;
+  font-style: normal;
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .zz {
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+.footer > .container > .middle > .zz > span {
+  margin: 0 4px;
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .zz > span > a {
+  white-space: nowrap;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.footer > .container > .middle > .zz > span > a:hover {
+  color: #f40;
+}
+.footer > .container > .middle > .zz > b {
+  margin: 0 3px;
+  font-weight: 400;
+  color: #ddd;
+}
+.footer > .container > .middle > .zz > span:nth-of-type(4) {
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .hlw {
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+.footer > .container > .middle > .hlw > span {
+  color: #9c9c9c;
+  margin: 0 4px;
+}
+.footer > .container > .middle > .hlw > b {
+  margin: 0 -1px;
+  font-weight: 400;
+  color: #ddd;
+}
+.footer > .container > .middle > .zs {
+  padding: 2px 0;
+  margin-bottom: 8px;
+}
+.footer > .container > .middle > .zs > span {
+  margin: 0 4px;
+  color: #9c9c9c;
+}
+.footer > .container > .middle > .zs > span > a {
+  white-space: nowrap;
+  color: #6c6c6c;
+  text-decoration: none;
+}
+.footer > .container > .middle > .zs > span > a:hover {
+  color: #f40;
+}
+.footer > .container > .middle > .zs > span > a > span {
+  display: inline-block;
+  background-position: -861px 0px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/jlt.jpg);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.footer > .container > .middle > .zs > b {
+  margin: 0 -1px;
+  font-weight: 400;
+  color: #ddd;
+}
+.footer > .container > .bottom > span {
+  margin: 0 4px;
+  color: #9c9c9c;
+}
+.footer > .container > .bottom > span > a {
+  background-image: url(../img/jlt.jpg);
+  margin-right: 15px;
+  height: 40px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  color: #3C3C3C;
+}
+.footer > .container > .bottom > span:nth-of-type(1) a {
+  width: 30px;
+  background-position: 0px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(2) a {
+  width: 50px;
+  background-position: -80px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(3) a {
+  width: 83px;
+  background-position: -140px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(4) a {
+  width: 250px;
+  background-position: 0px -18px;
+  background-image: url(../img/footer3.png_250x250);
+}
+.footer > .container > .bottom > span:nth-of-type(5) a {
+  width: 105px;
+  background-position: -650px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(6) a {
+  width: 82px;
+  background-position: -345px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(7) a {
+  width: 97px;
+  background-position: -761px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(8) a {
+  width: 249px;
+  background-position: -884px 0px;
+}
+.footer > .container > .bottom > span:nth-of-type(9) a {
+  width: 249px;
+  background-position: 0px 0px;
+  background-image: url(../img/footer1.jpg);
+}
+.footer > .container > .bottom > span:nth-of-type(10) a {
+  width: 249px;
+  background-position: 0px 0px;
+  background-image: url(../img/footer2.png);
+  background-size: contain;
+  height: 71px;
+}
