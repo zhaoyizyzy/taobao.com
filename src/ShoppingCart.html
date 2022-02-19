@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/ShoppingCart.css">
     <script src="http://at.alicdn.com/t/font_3164302_f8j724p50j8.js"></script>
     <script src="./js/jquery.js"></script>
+    <script src="./js/cookie.js"></script>
     <script src="./js/ShoppingCart.js"></script>
     <style type="text/css">
         .icon {
@@ -120,8 +121,8 @@
                     </li>
                     <div class="cart-sum">
                         已选商品（不含运费）
-                        <span>0.00</span>
-                        <a href="">结&nbsp;算</a>
+                        <span class="all">0.00</span>
+                        <a href="javascript:;">结&nbsp;算</a>
                     </div>
                 </ul>
                 <div class="cartmain">
@@ -139,128 +140,11 @@
                         </div>
                     </div>
                     <ul class="info">
-                        <li>
-                            <div class="top">
-                                <input type="checkbox">
-                                <span></span>
-                                店铺：
-                                <a href="">静静的小店</a>
-                                <span></span>
-                            </div>
-                            <div class="buttom">
-                                <div>
-                                    <input type="checkbox">
-                                </div>
-                                <div>
-                                    <div class="imgbox">
-                                        <a href="">
-                                            <img src="./img/cart1.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="content">
-                                        <a href="">
-                                            Apple/苹果 MacBook Pro MA611CH/A M1 MAX芯片高配置 现货三年保
-                                        </a>
-                                        <div>
-                                            <img src="./img/tb1.png" alt="">
-                                            <img src="./img/tb2.jpg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p>硬盘容量：8TB 固态硬盘</p>
-                                    <p>颜色分类：灰色</p>
-                                    <p>内存容量：64GB</p>
-                                    <span class="xiugai">
-                                        <svg class="icon" aria-hidden="true">
-                                            <use xlink:href="#icon-xiugai"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="xg">修改</span>
-                                </div>
-                                <div>
-                                    <p>￥42300.00</p>
-                                </div>
-                                <div>
-                                    <div class="count">
-                                        <a href="">-</a>
-                                        <input type="text" value="1">
-                                        <a href="">+</a>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p>￥42300.00</p>
-                                </div>
-                                <div>
-                                   <a href=""> 移入收藏夹</a>
-                                   <a href=""> 删除</a>
-                                   <a href="" class="like"> 相似宝贝</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="top">
-                                <input type="checkbox">
-                                <span></span>
-                                店铺：
-                                <a href="">zy的小店</a>
-                                <span></span>
-                            </div>
-                            <div class="buttom">
-                                <div>
-                                    <input type="checkbox">
-                                </div>
-                                <div>
-                                    <div class="imgbox">
-                                        <a href="">
-                                            <img src="./img/cart2.jpg" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="content">
-                                        <a href="">
-                                            2021新品Apple/苹果 iPhone 13 Pro Max苹果13Pro Max手机6.7英寸
-                                        </a>
-                                        <div>
-                                            <img src="./img/tb1.png" alt="">
-                                            <img src="./img/tb2.jpg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p>硬盘容量：8TB 固态硬盘</p>
-                                    <p>颜色分类：灰色</p>
-                                    <p>内存容量：64GB</p>
-                                    <span class="xiugai">
-                                        <svg class="icon" aria-hidden="true">
-                                            <use xlink:href="#icon-xiugai"></use>
-                                        </svg>
-                                    </span>
-                                    <span class="xg">修改</span>
-                                </div>
-                                <div>
-                                    <p>￥42300.00</p>
-                                </div>
-                                <div>
-                                    <div class="count">
-                                        <a href="">-</a>
-                                        <input type="text" value="1">
-                                        <a href="">+</a>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p>￥42300.00</p>
-                                </div>
-                                <div>
-                                   <a href=""> 移入收藏夹</a>
-                                   <a href=""> 删除</a>
-                                   <a href="" class="like"> 相似宝贝</a>
-                                </div>
-                            </div>
-                        </li>
+                        
                     </ul>
                     <div class="pay">
                         <div class="left">
-                            <input type="checkbox" class="allcheck">
+                            <input type="checkbox">
                             <span>全选</span>
                             <span>删除</span>
                             <span>移入收藏夹</span>
@@ -272,10 +156,10 @@
                                 件
                             </div>
                             <div>合计（不含运费）：
-                                <span>0.00</span>
+                                <span class="all">0.00</span>
                             </div>
                             <div>
-                                <a href="">结 算</a>
+                                <a href="javascript:;">结 算</a>
                             </div>
                         </div>
                     </div>

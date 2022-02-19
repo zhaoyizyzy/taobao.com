@@ -196,7 +196,8 @@ header > .container .bg:hover {
   text-align: center;
   color: #ff5000;
 }
-.main > .re-form > a {
+.main > .re-form > button {
+  display: block;
   margin-top: 50px;
   margin-left: 60px;
   border-radius: 3px;
@@ -207,7 +208,6 @@ header > .container .bg:hover {
   font-size: 14px;
   opacity: 0.5;
   color: #fff;
-  display: block;
   outline: 0 none;
   padding: 0;
   text-align: center;

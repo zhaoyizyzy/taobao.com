@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/Landing Page.css">
     <script src="http://at.alicdn.com/t/font_3164302_okm952dbkor.js"></script>
     <script src="./js/jquery.js"></script>
+    <script src="./js/cookie.js"></script>
     <script src="./js/Landing Page.js"></script>
 
     <style type="text/css">
@@ -45,7 +46,7 @@
                         <use xlink:href="#icon-xiangxia"></use>
                     </svg>
                 </li>
-                <li><a href="">
+                <li><a href="./ShoppingCart.html">
                         <svg class="icon gwc" aria-hidden="true">
                             <use xlink:href="#icon-gouwuche"></use>
                         </svg>购物车</a></li>
@@ -342,7 +343,7 @@
                             <div>
                                 <span>
                                     <a href="javascript:;" class="l">-</a>
-                                    <input type="text" value="1" maxlength="8">
+                                    <input type="text" value="1" maxlength="8" min="1">
                                     <a href="javascript:;" class="r">+</a>
                                     件
                                 </span>
@@ -387,8 +388,8 @@
                             </ul>
                         </div>
                         <div class="buy">
-                            <a href="">立即购买</a>
-                            <a href="">
+                            <a href="javascript:;">立即购买</a>
+                            <a href="javascript:;" class="additems">
                                 <svg class="icon" aria-hidden="true">
                                     <use xlink:href="#icon-gouwuche-copy"></use>
                                 </svg>
